@@ -14,6 +14,23 @@ https://www.scribd.com/document/897371895/Wetted-and-Projected-Area-Relationship
 
 ### Install Aerospace toolbox for wing desgin!!!
 
-ish a boeing-787 for now:
-D_{outer} =5.8m; L_total = 52m
-https://www.lot.com/gb/en/explore/about-lot/fleet/boeing-787-8-dreamliner
+ Total length is 54.7 m, 
+
+ with cabin length 21.1 m, 
+
+ Upper cargo length 12.5 m, 
+
+ upper total length is 33.6 m 
+
+ Lower cargo length is 34.7 m 
+
+ with 1.1 m rest space. 
+
+ D_outer and D_inner: 5.8 m and 5.5 m 
+
+ with 7 inch wall stickness
+With selected CL_max_setting =1.2 from the eariler book reference, i updated our current code and by adjust our abs stall spped we finally controlled our wing span b = 74.80 m. 
+
+The latest sref is 746.1 m^2 and wing loading 3769!! 
+
+lowk i think our Sref still bit too high, more info and cal required to update in the cl max calculation.
