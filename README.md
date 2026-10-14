@@ -29,6 +29,6 @@ https://www.scribd.com/document/897371895/Wetted-and-Projected-Area-Relationship
  D_outer and D_inner: 5.8 m and 5.5 m 
 
  with 7 inch wall stickness
-With selected CL_max_setting =1.2 from the eariler book reference, i updated our current code and by adjust our abs stall spped we finally controlled our wing span b = 64.96 m. 
+With selected CL_max_setting =1.2 from the eariler book reference, i updated our current code and by adjust our abs stall spped we finally controlled our wing span b = 63,57 m. 
 
-The latest sref is 562.65 m^2 and wing loading 4997, T/W 0.2583
+The latest sref is 538.77 m^2 and wing loading 5218, T/W 0.2731
