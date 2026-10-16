@@ -1,0 +1,40 @@
+# AVD
+AERO60002 - Aerospace Vehicle Design. Year 3 group project.
+
+# Current Sizing
+Fuselage:
+
+    Total length is 62.411 m, 
+    with cabin length 20.298 m, 
+    Upper cargo length 19.995 m, 
+    upper total length is 40.292 m 
+    Lower cargo length is 42.451 m 
+    with 2.159 m rest space. 
+    D_outer and D_inner: 5.834 m and 5.478 m 
+    with 7 inch wall stickness
+    Current Cargo density = 160 kg/m^3
+
+T/W and W/Sref
+    
+    AR = 7.5 
+    wing span b = 64.097 m 
+    Sref = 547.783 m^2. 
+    L_Fuslage/ b = 1.027. 
+    Wing Loading = 6376.754. 
+    Thrust to weight ratio = 0.332.With selected CL_max_setting = 1.2
+    wing span b = 63.57 m. 
+Time o
+
+# Mass EASA Standard
+Easy Access Rules for Air Operations (EASA, current): https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-air-operations
+
+EASA Annex to ED Decision 2014/015/R, Part-CAT (PDF): https://www.easa.europa.eu/sites/default/files/dfu/Annex%20to%20ED%20Decision%202014-015-R%20-%20Part-CAT_0.pdf
+# Cabin and fuselage sizing
+Roskam, Airplane Design Part 3, 2002
+
+Torenbeek, Synthesis of Subsonic Airplane Design, 1982
+
+# Wetted Area Analysis in Airplane Design
+https://www.scribd.com/document/897371895/Wetted-and-Projected-Area-Relationships-in-Commercial-Airplane-Design
+
+### Install Aerospace toolbox for wing desgin!!!
