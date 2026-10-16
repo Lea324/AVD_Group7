@@ -2,6 +2,15 @@
 AERO60002 - Aerospace Vehicle Design. Year 3 group project.
 
 # Current Sizing
+Weight:
+
+    W_0 = 356073.207 kg 
+    W_f = 147618.894 kg 
+    We = 152974.313 kg 
+    W_pax = 14850.000 kg 
+    W_crew = 630.000 kg 
+    W_cargo = 40000.000 kg 
+
 Fuselage:
 
     Total length is 62.411 m, 
