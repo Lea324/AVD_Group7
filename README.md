@@ -4,12 +4,12 @@ AERO60002 - Aerospace Vehicle Design. Year 3 group project.
 # Current Sizing
 Weight:
 
-    W_0 = 356073.207 kg 
-    W_f = 147618.894 kg 
-    We = 152974.313 kg 
+    W_0 = 336412.440 kg 
+    W_f = 135911.309 kg 
+    We = 145021.131 kg 
     W_pax = 14850.000 kg 
     W_crew = 630.000 kg 
-    W_cargo = 40000.000 kg 
+    W_cargo = 40000.000 kg  
 
 Fuselage:
 
@@ -25,6 +25,14 @@ Fuselage:
 
 T/W and W/Sref:
     
+    AR = 8.1 
+    wing span b = 64.574 m 
+    Sref = 514.787 m^2. 
+    b / L_Fuslage = 1.035. 
+    Wing Loading = 6410.822. 
+    Thrust to weight ratio = 0.317. 
+if AR = 7.5:
+
     AR = 7.5 
     wing span b = 64.097 m 
     Sref = 547.783 m^2. 
@@ -32,6 +40,8 @@ T/W and W/Sref:
     Wing Loading = 6376.754. 
     Thrust to weight ratio = 0.332.
     wing span b = 63.57 m. 
+Tried to decrease T/W...
+
 Time of mission:
 
                   Segment                   Duration_min    Cumulative_min
