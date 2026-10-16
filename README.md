@@ -13,14 +13,14 @@ Weight:
 
 Fuselage:
 
-    Total length is 62.411 m, 
-    with cabin length 20.298 m, 
-    Upper cargo length 19.995 m, 
-    upper total length is 40.292 m 
-    Lower cargo length is 42.451 m 
-    with 2.159 m rest space. 
+     Total length is 67.161 m, 
+    with cabin length 26.497 m, 
+    Upper cargo length 19.438 m, 
+    upper total length is 45.935 m 
+    Lower cargo length is 47.202 m 
+    with 1.268 m rest space. 
     D_outer and D_inner: 5.834 m and 5.478 m 
-    with 7 inch wall stickness
+    with 7 inch wall stickness 
     Current Cargo density = 160 kg/m^3
 
 T/W and W/Sref:
@@ -50,6 +50,7 @@ Time of mission:
     Considered mission time = 12.78 hours
     Total mission time = 14 h 51 min
 Engine Selection:
+
 
 Wing Selection:
 
