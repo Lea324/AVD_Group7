@@ -4,12 +4,12 @@ AERO60002 - Aerospace Vehicle Design. Year 3 group project.
 # Current Sizing
 Weight:
 
-    W_0 = 336412.440 kg 
-    W_f = 135911.309 kg 
-    We = 145021.131 kg 
+    W_0 = 291357.930 kg 
+    W_f = 109190.645 kg 
+    We = 126687.285 kg 
     W_pax = 14850.000 kg 
     W_crew = 630.000 kg 
-    W_cargo = 40000.000 kg  
+    W_cargo = 40000.000 kg 
 
 Fuselage:
 
@@ -25,38 +25,28 @@ Fuselage:
 
 T/W and W/Sref:
     
-    AR = 8.1 
-    wing span b = 64.574 m 
-    Sref = 514.787 m^2. 
-    b / L_Fuslage = 1.035. 
-    Wing Loading = 6410.822. 
-    Thrust to weight ratio = 0.317. 
-if AR = 7.5:
-
-    AR = 7.5 
-    wing span b = 64.097 m 
-    Sref = 547.783 m^2. 
-    L_Fuslage/ b = 0.974. 
-    Wing Loading = 6376.754. 
-    Thrust to weight ratio = 0.332.
-    wing span b = 63.57 m. 
-Tried to decrease T/W...
+    AR = 9.0 
+    wing span b = 65.035 m 
+    Sref = 469.947 m^2. 
+    b / L_Fuslage = 1.042. 
+    Wing Loading = 6082.010. 
+    Thrust to weight ratio = 0.298.
+    Tried to decrease T/W...
 
 Time of mission:
+                 Segment                     Duration_min    Cumulative_min
+    ______________________________________________________________________________
 
-                  Segment                   Duration_min    Cumulative_min
-    _________________________________________________________________________
     {'0-1 Taxi & Takeoff'              }           15               15    
     {'1-2 Climb & Accelerate'          }           25               40    
     {'2-3 Main Cruise (5500 nmi)'      }       701.64           741.64    
-    {'3-4 Initial Descent'             }           25           766.64  
-    _________________________________________________________________________  
+    {'3-4 Initial Descent'             }           25           766.64    
+    ______________________________________________________________________________
     {'4-5 Missed Approach + Climb'     }           25           791.64    
-    {'5-6 Cruise to Alternate (370 km)'}       23.988           815.63    
-    {'6-7 Loiter at 5000 ft'           }           45           860.63    
-    {'7-8 Final Descent'               }           20           880.63    
-    {'8-9 Landing & Taxi'              }           10           890.63    
-
+    {'5-6 Cruise to Alternate (370 km)'}       32.521           824.16    
+    {'6-7 Loiter at 5000 ft'           }           45           869.16    
+    {'7-8 Final Descent'               }           20           889.16    
+    {'8-9 Landing & Taxi'              }           10           899.16    
     Considered mission time = 12.78 hours
     Total mission time = 14 h 51 min
 Engine Selection:
