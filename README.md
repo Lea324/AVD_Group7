@@ -28,9 +28,9 @@ T/W and W/Sref:
     AR = 7.5 
     wing span b = 64.097 m 
     Sref = 547.783 m^2. 
-    L_Fuslage/ b = 1.027. 
+    L_Fuslage/ b = 0.974. 
     Wing Loading = 6376.754. 
-    Thrust to weight ratio = 0.332.With selected CL_max_setting = 1.2
+    Thrust to weight ratio = 0.332.
     wing span b = 63.57 m. 
 Time of mission:
 
