@@ -33,6 +33,7 @@ T/W and W/Sref:
     Thrust to weight ratio = 0.298.
 
 Time of mission:
+
                  Segment                     Duration_min    Cumulative_min
     ______________________________________________________________________________
 
