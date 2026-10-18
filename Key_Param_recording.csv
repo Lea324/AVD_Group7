@@ -1,169 +1,169 @@
 Parameter,Value,Unit,Type,Description,Var5
-n_first,36,seats,Input,"Number of first-class seats",
-n_eco,114,seats,Input,"Number of economy-class seats",
-m_pax,84,kg,Input,"EASA standard adult pax mass, incl 6 kg hand bag",
-m_hand,0,kg,Input,"Hand baggage mass (subset of m_pax)",
-m_chk,15,kg,Input,"Checked baggage mass per pax (EASA intercontinental)",
-rho_bag,200,kg/m^3,Input,"Baggage density",
-eta,0.875,-,Input,"Hold/cargo loading efficiency",
-W_cargo,40000,kg,Input,"Cargo payload mass",
-rho_cargo,160,kg/m^3,Input,"Cargo density 10",
-V_LD4,5.5,m^3,Input,"LD4 ULD volume",
-V_LD8,6.8,m^3,Input,"LD8 ULD volume",
-W_LD4_in,96,in,Input,"LD4 ULD top width",
-W_LD8_in,125,in,Input,"LD8 ULD top width",
-V_LD3,4.5,m^3,Input,"LD3 ULD volume",
-W_LD3_in,79,in,Input,"LD3 ULD top width",
-ULD_depth_in,60.4,in,Input,"ULD depth along fuselage axis",
-clear_hold,0.1,m,Input,"Cargo hold clearance",
-b_eco_in,57,in,Input,"Economy 3-seat block width (Roskam)",
-b_bus,47,in,Input,"Business 2-seat block width (Roskam)",
-b_bus_1,25.5,in,Input,"Business 2-seat block width (Roskam)",
-b_norm,40,in,Input,"Normal 2-seat block width (Roskam)",
-aisle_in,20,in,Input,"Aisle width, Torenbeek min (x2 aisles)",
-sidewall_in,2,in,Input,"Sidewall clearance per side (x2 sides)",
-headroom_base_m,1.95,m,Input,"Base headroom (Torenbeek)",
-exit_door_small_in,20,in,Input,"Small exit door width (FAR 25.807)",
-exit_door_large_in,24,in,Input,"Large exit door width (FAR 25.807)",
-headroom_margin_m,0.01,m,Input,"Headroom margin",
-ULD_height_in,64,in,Input,"ULD height (all ULDs)",
-wall_thickness_in,7,in,Input,"Fuselage wall thickness",
-armrest_height_in,25,in,Input,"Armrest height (Torenbeek)",
-floor_camber_factor,0.05,-,Input,"Cargo floor camber factor",
-R_min,1.75,m,Input,"Inner-radius sweep: lower bound",
-R_max,8,m,Input,"Inner-radius sweep: upper bound",
-R_step,0.001,m,Input,"Inner-radius sweep: step size",
-n_first_rows,9,rows,Input,"First-class rows (3x4 layout)",
-eco_abreast,9,seats/row,Input,"Economy seats abreast",
-first_pitch_in,36,in,Input,"First-class seat pitch",
-eco_pitch_in,32,in,Input,"Economy seat pitch",
-norm_pitch_in,32,in,Input,"Normal seat pitch",
-wc_length_m,1,m,Input,"Length per lavatory block",
-galley_vol_per_pax_ft3,2,ft^3/pax,Input,"Galley volume per passenger",
-cross_aisle_rows,20,rows,Input,"Seat rows per cross aisle",
-cross_aisle_len_m,1,m,Input,"Cross aisle length",
-Ln_d,1.5,-,Input,"Nose length-to-diameter ratio",
-Lt_d,1.75,-,Input,"Tail length-to-diameter ratio",
-f_const_section,0.65,-,Input,"Constant-section hold fraction (f)",
-fraction_hold,0.5882,-,Input,"Fraction of constant section usable as hold",
-L_vertical_stabiliser,1,m,Input,"Vertical stabiliser length extra to tail length",
-AR,9,-,Input,"Wing aspect ratio",
-Swet_Sref,6.2,-,Input,"Wetted area ratio",
-S_ref,468.414777869372,m^2,Input,"Wing reference area",
-W_0_guess_init,300000,kg,Input,"Initial MTOW guess",
-Oswald_efficiency_factor,0.7,-,Input,"Oswald efficiency factor",
-CD0,0.0186,-,Input,"Zero-lift drag coefficient",
-V_climb,150,m/s,Input,"Climb speed",
-climb_gradient_1st,0.024,-,Input,"Climb gradient",
-climb_gradient_2nd,0.024,-,Input,"Climb gradient for second climb segment",
-alpha_cruise,0.25,-,Input,"Available thrust relative to sea-level thrust",
-alpha_alt,0.5,-,Input,"Available thrust relative to sea-level thrust at diversion altitude",
-alpha_loiter,0.2,-,Input,"Available thrust relative to sea-level thrust at loiter",
-alpha_ceiling,0.2,-,Input,"Available thrust relative to sea-level thrust at ceiling",
-ROC,0,-,Input,"Absolute ceiling approximation",
-CLmax_Landing,2.5,-,Input,"Landing maximum lift coefficient",
-Vstall_Landing,45.6437004173115,m/s,Input,"Landing stall speed",
-Vstall_cruise,72.5870959402068,m/s,Input,"Cruise stall speed",
-Vstall_takeoff,62.92573383504,m/s,Input,"Takeoff stall speed",
-V_x,270.536511767643,m/s,Input,"Best angle-of-climb speed",
-M_cruise,0.82,-,Input,"Cruise Mach number",
-M_cruise_2,0.6,-,Input,"Cruise Mach number 2",
-abs_ceiling_ft,42000,ft,Input,"Absolute ceiling",
-cruise_alt_offset_ft,5000,ft,Input,"Cruise altitude offset below ceiling",
-cruise_alt_ft,37000,ft,Input,"Cruise altitude 1",
-cruise_alt2_ft,20000,ft,Input,"Cruise altitude 2",
-loiter_alt_ft,5000,ft,Input,"Loiter altitude",
-gamma_air,1.4,-,Input,"Ratio of specific heats, air",
-R_air,287,J/(kg K),Input,"Specific gas constant, air",
-T_cruise_K,216.65,K,Input,"ISA temperature at cruise altitude",
-loiter_speed_divisor,3,-,Input,"Loiter speed divisor base",
-loiter_speed_power,0.25,-,Input,"Loiter speed divisor exponent",
-K_LD,15.5,-,Input,"Wetted-aspect-ratio L/D constant",
-cruise_LD_factor,0.866,-,Input,"Cruise L/D as fraction of L/D max",
-sfc_cruise_mg,13.32,mg/(N s),Input,"Cruise TSFC",
-sfc_cruise2_mg,11.13,mg/(N s),Input,"Cruise TSFC 2",
-sfc_loiter_mg,11.43,mg/(N s),Input,"Loiter TSFC",
-Wr_taxi_takeoff,0.97,-,Input,"Weight fraction: taxi & takeoff",
-Wr_climb,0.985,-,Input,"Weight fraction: climb & accelerate to cruise",
-R_cruise_nmi,5500,nmi,Input,"Cruise range",
-Wr_cruise,0.711667321025699,-,Input,"Weight fraction: cruise",
-Wr_descent,0.995,-,Input,"Weight fraction: descent to land",
-Wr_cruise_alt,0.986912663658876,-,Input,"Weight fraction: cruise",
-Wr_missed_approach,0.985,-,Input,"Weight fraction: missed approach climb",
-R_alt_km,370,km,Input,"Diversion (alternate) range",
-E_loiter_min,45,min,Input,"Loiter time",
-Wr_loiter,0.983919247134346,-,Input,"Weight fraction: loiter",
-Wr_land_taxi,0.995,-,Input,"Weight fraction: descent + landing & taxi",
-fuel_margin,0.06,-,Input,"Fuel reserve margin multiplier page 524",
-A_coef,0.97,-,Input,"Empty-weight regression coefficient A",
-C_coef,-0.06,-,Input,"Empty-weight regression coefficient C",
-b_mass,99,kg,Input,"First/business class pax + bag mass",
-e_mass,99,kg,Input,"Economy pax + bag mass",
-n_pilots,3,count,Input,"Number of pilots",
-pilot_mass,85,kg,Input,"Pilot mass",
-n_cabin_crew,5,count,Input,"Number of cabin crew",
-cabin_crew_mass,75,kg,Input,"Cabin crew mass",
-tol,0.1,kg,Input,"MTOW convergence tolerance",
-max_iter,100,count,Input,"Max convergence iterations",
-L_runway,3000,m,Input,"Runway length requirement",
-a_AR,10,-,Input,"Aspect ratio a",
-c_AR,0,-,Input,"Aspect ratio c",
-lambda,0.45,-,Input,"Taper ratio",
-Sweep_LE,35,deg,Input,"Leading-edge sweep",
-twist_angle,-3,deg,Input,"Wing twist angle",
-fuel_density,0.79,kg/L,Input,"Fuel density",
-n_pax,150,pax,Output,"Total passengers (n_first+n_eco)",
-W_chk,2250,kg,Output,"Checked baggage mass (n_pax*m_chk)",
-W_pax_bags,14850,kg,Output,"Pax+checked bag mass (n_pax*(m_pax+m_chk))",
-V_chk,13.2352941176471,m^3,Output,"Checked-bag hold volume",
-V_hand,5.14285714285714,m^3,Output,"Hand-bag stowage volume",
-V_cargo,285.714285714286,m^3,Output,"Freight cargo volume",
-V_req,298.949579831933,m^3,Output,"Total required hold volume",
-N_rows,34,rows,Output,"ULD rows (LD3*2 across)",
-V_row,9,m^3,Output,"Volume per ULD row",
-W_row,4.0132,m,Output,"Width per ULD row",
-W_eco,5.461,m,Output,"Economy cabin width",
-W_bu,3.6068,m,Output,"Business class cabin width",
-W_norm,4.1656,m,Output,"Normal cabin width",
-L_2_bed,3.7,m,Output,"2-bed cabin length",
-W_bed,0.76,m,Output,"1-bed cabin width",
-bed_margin,1.1,-,Output,"2-bed cabin width margin",
-W_cabin,5.461,m,Output,"Cabin width",
-H_Headroom,1.96,m,Output,"Required total headroom with margin",
-H_cargo,1.6256,m,Output,"Cargo hold height (ULD height)",
-D_inner,5.478,m,Output,"Fuselage inner diameter",
-D_outer,5.8336,m,Output,"Fuselage outer diameter",
-y_floor_upper_surface,-0.8395,m,Output,"Upper surface floor cabin in axis y direction take centre of fuselage as origin",
-n_eco_rows,15,rows,Output,"Economy seat rows",
-n_rows_cab,24,rows,Output,"Total cabin rows",
-Total_seat_pitch,20.4216,m,Output,"Total seat-pitch length",
-L_cabin,19.5416662173707,m,Output,"Cabin length",
-V_galley,8.4950539776,m^3,Output,"Total galley volume",
-L_galley_front,0.748413319011815,m,Output,"Galley front length",
-L_galley_back,0.728683795067455,m,Output,"Galley back length",
-L_galley,1.47709711407927,m,Output,"Total galley length",
-L_cross,2,m,Output,"Cross-horizontal length",
-L_nose,8.7504,m,Output,"Nose length",
-L_tail,10.2088,m,Output,"Tail length",
-L_under,47.2020907815385,m,Output,"Stored cargo length from in lowerdesk",
-L_main,45.9345180979168,m,Output,"Stored cargo length from in upperdesk",
-Tot_under,66.1612907815385,m,Output,"Total length lowerdeck with nose and tail",
-Tot_upper,64.8937180979168,m,Output,"Total length upperdeck with nose and tail",
-L_total,67.1612907815385,m,Output,"Governing total plane length (nose+tail+fuselage)",
-alt_cruise,11277.6,m,Output,"Cruise altitude",
-V_cruise,241.956986467356,m/s,Output,"Cruise speed",
-V_cruise2,189.619122777902,m/s,Output,"Cruise speed 2",
-V_loiter,183.847552710617,m/s,Output,"Loiter speed",
-AR_wetted,1.45161290322581,-,Output,"Wetted aspect ratio",
-LD_max,18.6748493969831,-,Output,"Max lift-to-drag ratio",
-LD_loiter,18.6748493969831,,-,"Output",Loiter lift-to-drag ratio
-LD_cruise,16.1724195777874,-,Output,"Cruise lift-to-drag ratio",
-W_fuel_fraction,0.3740565030892,-,Output,"Fuel weight fraction (Wf/W0)",
-b_ratio,0.08,-,Output,"First/business class pax fraction",
-W_crew,630,kg,Output,"Crew mass",
-W_0_guess,290408.102023774,kg,Output,"Converged MTOW",
-W_f,108629.073129414,kg,Output,"Converged fuel weight",
-W_e,126299.02889436,kg,Output,"Converged empty weight",
-iter,42,count,Output,"Converged iteration count to mass",
-Wing_loading,6082.01025128141,kg/m^2,Output,"Wing loading",
-Thrust_to_weight,0.29834142601804,-,Output,"Thrust-to-weight ratio",
+n_first,24,seats,Input,"Number of first-class seats",NaN
+n_eco,126,seats,Input,"Number of economy-class seats",NaN
+m_pax,84,kg,Input,"EASA standard adult pax mass, incl 6 kg hand bag",NaN
+m_hand,0,kg,Input,"Hand baggage mass (subset of m_pax)",NaN
+m_chk,15,kg,Input,"Checked baggage mass per pax (EASA intercontinental)",NaN
+rho_bag,200,kg/m^3,Input,"Baggage density",NaN
+eta,0.875,-,Input,"Hold/cargo loading efficiency",NaN
+W_cargo,40000,kg,Input,"Cargo payload mass",NaN
+rho_cargo,160,kg/m^3,Input,"Cargo density 10",NaN
+V_LD4,5.5,m^3,Input,"LD4 ULD volume",NaN
+V_LD8,6.8,m^3,Input,"LD8 ULD volume",NaN
+W_LD4_in,96,in,Input,"LD4 ULD top width",NaN
+W_LD8_in,125,in,Input,"LD8 ULD top width",NaN
+V_LD3,4.5,m^3,Input,"LD3 ULD volume",NaN
+W_LD3_in,79,in,Input,"LD3 ULD top width",NaN
+ULD_depth_in,60.4,in,Input,"ULD depth along fuselage axis",NaN
+clear_hold,0.1,m,Input,"Cargo hold clearance",NaN
+b_eco_in,57,in,Input,"Economy 3-seat block width (Roskam)",NaN
+b_bus,47,in,Input,"Business 2-seat block width (Roskam)",NaN
+b_bus_1,25.5,in,Input,"Business 2-seat block width (Roskam)",NaN
+b_norm,40,in,Input,"Normal 2-seat block width (Roskam)",NaN
+aisle_in,20,in,Input,"Aisle width, Torenbeek min (x2 aisles)",NaN
+sidewall_in,2,in,Input,"Sidewall clearance per side (x2 sides)",NaN
+headroom_base_m,1.95,m,Input,"Base headroom (Torenbeek)",NaN
+exit_door_small_in,20,in,Input,"Small exit door width (FAR 25.807)",NaN
+exit_door_large_in,24,in,Input,"Large exit door width (FAR 25.807)",NaN
+headroom_margin_m,0.01,m,Input,"Headroom margin",NaN
+ULD_height_in,64,in,Input,"ULD height (all ULDs)",NaN
+wall_thickness_in,7,in,Input,"Fuselage wall thickness",NaN
+armrest_height_in,25,in,Input,"Armrest height (Torenbeek)",NaN
+floor_camber_factor,0.05,-,Input,"Cargo floor camber factor",NaN
+R_min,1.75,m,Input,"Inner-radius sweep: lower bound",NaN
+R_max,8,m,Input,"Inner-radius sweep: upper bound",NaN
+R_step,0.001,m,Input,"Inner-radius sweep: step size",NaN
+n_first_rows,6,rows,Input,"First-class rows (3x4 layout)",NaN
+eco_abreast,9,seats/row,Input,"Economy seats abreast",NaN
+first_pitch_in,36,in,Input,"First-class seat pitch",NaN
+eco_pitch_in,32,in,Input,"Economy seat pitch",NaN
+norm_pitch_in,32,in,Input,"Normal seat pitch",NaN
+wc_length_m,1,m,Input,"Length per lavatory block",NaN
+galley_vol_per_pax_ft3,2,ft^3/pax,Input,"Galley volume per passenger",NaN
+cross_aisle_rows,20,rows,Input,"Seat rows per cross aisle",NaN
+cross_aisle_len_m,1,m,Input,"Cross aisle length",NaN
+Ln_d,1.5,-,Input,"Nose length-to-diameter ratio",NaN
+Lt_d,1.75,-,Input,"Tail length-to-diameter ratio",NaN
+f_const_section,0.65,-,Input,"Constant-section hold fraction (f)",NaN
+fraction_hold,0.558824,-,Input,"Fraction of constant section usable as hold",NaN
+L_vertical_stabiliser,1,m,Input,"Vertical stabiliser length extra to tail length",NaN
+AR,9,-,Input,"Wing aspect ratio",NaN
+Swet_Sref,6.2,-,Input,"Wetted area ratio",NaN
+S_ref,468.414777869372,m^2,Input,"Wing reference area",NaN
+W_0_guess_init,300000,kg,Input,"Initial MTOW guess",NaN
+Oswald_efficiency_factor,0.7,-,Input,"Oswald efficiency factor",NaN
+CD0,0.0186,-,Input,"Zero-lift drag coefficient",NaN
+V_climb,150,m/s,Input,"Climb speed",NaN
+climb_gradient_1st,0.024,-,Input,"Climb gradient",NaN
+climb_gradient_2nd,0.024,-,Input,"Climb gradient for second climb segment",NaN
+alpha_cruise,0.25,-,Input,"Available thrust relative to sea-level thrust",NaN
+alpha_alt,0.5,-,Input,"Available thrust relative to sea-level thrust at diversion altitude",NaN
+alpha_loiter,0.2,-,Input,"Available thrust relative to sea-level thrust at loiter",NaN
+alpha_ceiling,0.2,-,Input,"Available thrust relative to sea-level thrust at ceiling",NaN
+ROC,0,-,Input,"Absolute ceiling approximation",NaN
+CLmax_Landing,2.5,-,Input,"Landing maximum lift coefficient",NaN
+Vstall_Landing,45.6437004173115,m/s,Input,"Landing stall speed",NaN
+Vstall_cruise,72.5870959402068,m/s,Input,"Cruise stall speed",NaN
+Vstall_takeoff,62.92573383504,m/s,Input,"Takeoff stall speed",NaN
+V_x,270.536511767643,m/s,Input,"Best angle-of-climb speed",NaN
+M_cruise,0.82,-,Input,"Cruise Mach number",NaN
+M_cruise_2,0.6,-,Input,"Cruise Mach number 2",NaN
+abs_ceiling_ft,42000,ft,Input,"Absolute ceiling",NaN
+cruise_alt_offset_ft,5000,ft,Input,"Cruise altitude offset below ceiling",NaN
+cruise_alt_ft,37000,ft,Input,"Cruise altitude 1",NaN
+cruise_alt2_ft,20000,ft,Input,"Cruise altitude 2",NaN
+loiter_alt_ft,5000,ft,Input,"Loiter altitude",NaN
+gamma_air,1.4,-,Input,"Ratio of specific heats, air",NaN
+R_air,287,J/(kg K),Input,"Specific gas constant, air",NaN
+T_cruise_K,216.65,K,Input,"ISA temperature at cruise altitude",NaN
+loiter_speed_divisor,3,-,Input,"Loiter speed divisor base",NaN
+loiter_speed_power,0.25,-,Input,"Loiter speed divisor exponent",NaN
+K_LD,15.5,-,Input,"Wetted-aspect-ratio L/D constant",NaN
+cruise_LD_factor,0.866,-,Input,"Cruise L/D as fraction of L/D max",NaN
+sfc_cruise_mg,13.32,mg/(N s),Input,"Cruise TSFC",NaN
+sfc_cruise2_mg,11.13,mg/(N s),Input,"Cruise TSFC 2",NaN
+sfc_loiter_mg,11.43,mg/(N s),Input,"Loiter TSFC",NaN
+Wr_taxi_takeoff,0.97,-,Input,"Weight fraction: taxi & takeoff",NaN
+Wr_climb,0.985,-,Input,"Weight fraction: climb & accelerate to cruise",NaN
+R_cruise_nmi,5500,nmi,Input,"Cruise range",NaN
+Wr_cruise,0.711667321025699,-,Input,"Weight fraction: cruise",NaN
+Wr_descent,0.995,-,Input,"Weight fraction: descent to land",NaN
+Wr_cruise_alt,0.986912663658876,-,Input,"Weight fraction: cruise",NaN
+Wr_missed_approach,0.985,-,Input,"Weight fraction: missed approach climb",NaN
+R_alt_km,370,km,Input,"Diversion (alternate) range",NaN
+E_loiter_min,45,min,Input,"Loiter time",NaN
+Wr_loiter,0.983919247134346,-,Input,"Weight fraction: loiter",NaN
+Wr_land_taxi,0.995,-,Input,"Weight fraction: descent + landing & taxi",NaN
+fuel_margin,0.06,-,Input,"Fuel reserve margin multiplier page 524",NaN
+A_coef,0.97,-,Input,"Empty-weight regression coefficient A",NaN
+C_coef,-0.06,-,Input,"Empty-weight regression coefficient C",NaN
+b_mass,99,kg,Input,"First/business class pax + bag mass",NaN
+e_mass,99,kg,Input,"Economy pax + bag mass",NaN
+n_pilots,3,count,Input,"Number of pilots",NaN
+pilot_mass,85,kg,Input,"Pilot mass",NaN
+n_cabin_crew,5,count,Input,"Number of cabin crew",NaN
+cabin_crew_mass,75,kg,Input,"Cabin crew mass",NaN
+tol,0.1,kg,Input,"MTOW convergence tolerance",NaN
+max_iter,100,count,Input,"Max convergence iterations",NaN
+L_runway,3000,m,Input,"Runway length requirement",NaN
+a_AR,9,-,Input,"Aspect ratio a dont use ",NaN
+c_AR,0,-,Input,"Aspect ratio c",NaN
+lambda,0.45,-,Input,"Taper ratio",NaN
+Sweep_LE,35,deg,Input,"Leading-edge sweep",NaN
+twist_angle,-3,deg,Input,"Wing twist angle",NaN
+fuel_density,0.79,kg/L,Input,"Fuel density",NaN
+n_pax,150,pax,Output,"Total passengers (n_first+n_eco)",NaN
+W_chk,2250,kg,Output,"Checked baggage mass (n_pax*m_chk)",NaN
+W_pax_bags,14850,kg,Output,"Pax+checked bag mass (n_pax*(m_pax+m_chk))",NaN
+V_chk,13.2352941176471,m^3,Output,"Checked-bag hold volume",NaN
+V_hand,5.14285714285714,m^3,Output,"Hand-bag stowage volume",NaN
+V_cargo,285.714285714286,m^3,Output,"Freight cargo volume",NaN
+V_req,298.949579831933,m^3,Output,"Total required hold volume",NaN
+N_rows,34,rows,Output,"ULD rows (LD3*2 across)",NaN
+V_row,9,m^3,Output,"Volume per ULD row",NaN
+W_row,4.0132,m,Output,"Width per ULD row",NaN
+W_eco,5.461,m,Output,"Economy cabin width",NaN
+W_bu,3.6068,m,Output,"Business class cabin width",NaN
+W_norm,4.1656,m,Output,"Normal cabin width",NaN
+L_2_bed,3.7,m,Output,"2-bed cabin length",NaN
+W_bed,0.76,m,Output,"1-bed cabin width",NaN
+bed_margin,1.1,-,Output,"2-bed cabin width margin",NaN
+W_cabin,5.461,m,Output,"Cabin width",NaN
+H_Headroom,1.96,m,Output,"Required total headroom with margin",NaN
+H_cargo,1.6256,m,Output,"Cargo hold height (ULD height)",NaN
+D_inner,5.478,m,Output,"Fuselage inner diameter",NaN
+D_outer,5.8336,m,Output,"Fuselage outer diameter",NaN
+y_floor_upper_surface,-0.8395,m,Output,"Upper surface floor cabin in axis y direction take centre of fuselage as origin",NaN
+n_eco_rows,16,rows,Output,"Economy seat rows",NaN
+n_rows_cab,22,rows,Output,"Total cabin rows",NaN
+Total_seat_pitch,18.4912,m,Output,"Total seat-pitch length",NaN
+L_cabin,19.5416662173707,m,Output,"Cabin length",NaN
+V_galley,8.4950539776,m^3,Output,"Total galley volume",NaN
+L_galley_front,0.748413319011815,m,Output,"Galley front length",NaN
+L_galley_back,0.728683795067455,m,Output,"Galley back length",NaN
+L_galley,1.47709711407927,m,Output,"Total galley length",NaN
+L_cross,2,m,Output,"Cross-horizontal length",NaN
+L_nose,8.7504,m,Output,"Nose length",NaN
+L_tail,10.2088,m,Output,"Tail length",NaN
+L_under,44.8447146870154,m,Output,"Stored cargo length from in lowerdesk",NaN
+L_main,44.350708960838,m,Output,"Stored cargo length from in upperdesk",NaN
+Tot_under,63.8039146870154,m,Output,"Total length lowerdeck with nose and tail",NaN
+Tot_upper,63.309908960838,m,Output,"Total length upperdeck with nose and tail",NaN
+L_total,64.8039146870154,m,Output,"Governing total plane length (nose+tail+fuselage)",NaN
+alt_cruise,11277.6,m,Output,"Cruise altitude",NaN
+V_cruise,241.956986467356,m/s,Output,"Cruise speed",NaN
+V_cruise2,189.619122777902,m/s,Output,"Cruise speed 2",NaN
+V_loiter,183.847552710617,m/s,Output,"Loiter speed",NaN
+AR_wetted,1.45161290322581,-,Output,"Wetted aspect ratio",NaN
+LD_max,18.6748493969831,-,Output,"Max lift-to-drag ratio",NaN
+LD_loiter,18.6748493969831,-,Output,"Loiter lift-to-drag ratio",NaN
+LD_cruise,16.1724195777874,-,Output,"Cruise lift-to-drag ratio",NaN
+W_fuel_fraction,0.3740565030892,-,Output,"Fuel weight fraction (Wf/W0)",NaN
+b_ratio,0.08,-,Output,"First/business class pax fraction",NaN
+W_crew,630,kg,Output,"Crew mass",NaN
+W_0_guess,290408.102023774,kg,Output,"Converged MTOW",NaN
+W_f,108629.073129414,kg,Output,"Converged fuel weight",NaN
+W_e,126299.02889436,kg,Output,"Converged empty weight",NaN
+iter,42,count,Output,"Converged iteration count to mass",NaN
+Wing_loading,6082.01025128141,kg/m^2,Output,"Wing loading",NaN
+Thrust_to_weight,0.29834142601804,-,Output,"Thrust-to-weight ratio",NaN
