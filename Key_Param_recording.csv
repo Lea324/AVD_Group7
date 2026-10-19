@@ -106,7 +106,7 @@ cabin_crew_mass,75,kg,Input,"Cabin crew mass",NaN
 tol,0.1,kg,Input,"MTOW convergence tolerance",NaN
 max_iter,100,count,Input,"Max convergence iterations",NaN
 L_runway,3000,m,Input,"Runway length requirement",NaN
-a_AR,9.5,-,Input,"Aspect ratio a dont use ",NaN
+a_AR,9.5,-,Input,"Aspect ratio a dont use",NaN
 c_AR,0,-,Input,"Aspect ratio c",NaN
 lambda,0.45,-,Input,"Taper ratio",NaN
 Sweep_LE,35,deg,Input,"Leading-edge sweep",NaN
@@ -167,3 +167,4 @@ W_e,126360.516094463,kg,Output,"Converged empty weight",NaN
 iter,41,count,Output,"Converged iteration count to mass",NaN
 Wing_loading,6082.01025128141,kg/m^2,Output,"Wing loading",NaN
 Thrust_to_weight,0.29834142601804,-,Output,"Thrust-to-weight ratio",NaN
+W_pax_bags,14850,,,"",0
