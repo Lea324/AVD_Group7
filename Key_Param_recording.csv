@@ -49,7 +49,7 @@ fraction_hold,0.558824,-,Input,"Fraction of constant section usable as hold",NaN
 L_vertical_stabiliser,1,m,Input,"Vertical stabiliser length extra to tail length",NaN
 AR,9,-,Input,"Wing aspect ratio",NaN
 Swet_Sref,6.2,-,Input,"Wetted area ratio",NaN
-S_ref,468.414777869372,m^2,Input,"Wing reference area",NaN
+S_ref,468.657384820577,m^2,Input,"Wing reference area",NaN
 W_0_guess_init,300000,kg,Input,"Initial MTOW guess",NaN
 Oswald_efficiency_factor,0.7,-,Input,"Oswald efficiency factor",NaN
 CD0,0.0186,-,Input,"Zero-lift drag coefficient",NaN
@@ -80,13 +80,13 @@ loiter_speed_divisor,3,-,Input,"Loiter speed divisor base",NaN
 loiter_speed_power,0.25,-,Input,"Loiter speed divisor exponent",NaN
 K_LD,15.5,-,Input,"Wetted-aspect-ratio L/D constant",NaN
 cruise_LD_factor,0.866,-,Input,"Cruise L/D as fraction of L/D max",NaN
-sfc_cruise_mg,13.32,mg/(N s),Input,"Cruise TSFC",NaN
+sfc_cruise_mg,13,mg/(N s),Input,"Cruise TSFC",NaN
 sfc_cruise2_mg,11.13,mg/(N s),Input,"Cruise TSFC 2",NaN
 sfc_loiter_mg,11.43,mg/(N s),Input,"Loiter TSFC",NaN
 Wr_taxi_takeoff,0.97,-,Input,"Weight fraction: taxi & takeoff",NaN
 Wr_climb,0.985,-,Input,"Weight fraction: climb & accelerate to cruise",NaN
 R_cruise_nmi,5500,nmi,Input,"Cruise range",NaN
-Wr_cruise,0.711667321025699,-,Input,"Weight fraction: cruise",NaN
+Wr_cruise,0.717506639646417,-,Input,"Weight fraction: cruise",NaN
 Wr_descent,0.995,-,Input,"Weight fraction: descent to land",NaN
 Wr_cruise_alt,0.986912663658876,-,Input,"Weight fraction: cruise",NaN
 Wr_missed_approach,0.985,-,Input,"Weight fraction: missed approach climb",NaN
@@ -106,7 +106,7 @@ cabin_crew_mass,75,kg,Input,"Cabin crew mass",NaN
 tol,0.1,kg,Input,"MTOW convergence tolerance",NaN
 max_iter,100,count,Input,"Max convergence iterations",NaN
 L_runway,3000,m,Input,"Runway length requirement",NaN
-a_AR,9,-,Input,"Aspect ratio a dont use ",NaN
+a_AR,9.5,-,Input,"Aspect ratio a dont use ",NaN
 c_AR,0,-,Input,"Aspect ratio c",NaN
 lambda,0.45,-,Input,"Taper ratio",NaN
 Sweep_LE,35,deg,Input,"Leading-edge sweep",NaN
@@ -114,7 +114,7 @@ twist_angle,-3,deg,Input,"Wing twist angle",NaN
 fuel_density,0.79,kg/L,Input,"Fuel density",NaN
 n_pax,150,pax,Output,"Total passengers (n_first+n_eco)",NaN
 W_chk,2250,kg,Output,"Checked baggage mass (n_pax*m_chk)",NaN
-W_pax_bags,14850,kg,Output,"Pax+checked bag mass (n_pax*(m_pax+m_chk))",NaN
+W_pax,16518,kg,Output,"Pax+checked bag mass (n_pax*(m_pax+m_chk))",NaN
 V_chk,13.2352941176471,m^3,Output,"Checked-bag hold volume",NaN
 V_hand,5.14285714285714,m^3,Output,"Hand-bag stowage volume",NaN
 V_cargo,285.714285714286,m^3,Output,"Freight cargo volume",NaN
@@ -158,12 +158,12 @@ AR_wetted,1.45161290322581,-,Output,"Wetted aspect ratio",NaN
 LD_max,18.6748493969831,-,Output,"Max lift-to-drag ratio",NaN
 LD_loiter,18.6748493969831,-,Output,"Loiter lift-to-drag ratio",NaN
 LD_cruise,16.1724195777874,-,Output,"Cruise lift-to-drag ratio",NaN
-W_fuel_fraction,0.3740565030892,-,Output,"Fuel weight fraction (Wf/W0)",NaN
+W_fuel_fraction,0.368428251635278,-,Output,"Fuel weight fraction (Wf/W0)",NaN
 b_ratio,0.08,-,Output,"First/business class pax fraction",NaN
 W_crew,630,kg,Output,"Crew mass",NaN
-W_0_guess,290408.102023774,kg,Output,"Converged MTOW",NaN
-W_f,108629.073129414,kg,Output,"Converged fuel weight",NaN
-W_e,126299.02889436,kg,Output,"Converged empty weight",NaN
-iter,42,count,Output,"Converged iteration count to mass",NaN
+W_0_guess,290558.513640926,kg,Output,"Converged MTOW",NaN
+W_f,107049.997546463,kg,Output,"Converged fuel weight",NaN
+W_e,126360.516094463,kg,Output,"Converged empty weight",NaN
+iter,41,count,Output,"Converged iteration count to mass",NaN
 Wing_loading,6082.01025128141,kg/m^2,Output,"Wing loading",NaN
 Thrust_to_weight,0.29834142601804,-,Output,"Thrust-to-weight ratio",NaN
