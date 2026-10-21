@@ -20,7 +20,8 @@ b_eco_in,57,in,Input,"Economy 3-seat block width (Roskam)",NaN
 b_bus,47,in,Input,"Business 2-seat block width (Roskam)",NaN
 b_bus_1,25.5,in,Input,"Business 2-seat block width (Roskam)",NaN
 b_norm,40,in,Input,"Normal 2-seat block width (Roskam)",NaN
-aisle_in,20,in,Input,"Aisle width, Torenbeek min (x2 aisles)",NaN
+aisle_eco_in,18,in,Input,"Aisle width, Torenbeek min (x2 aisles)",NaN
+aisle_bus_in,20,in,Input,"Aisle width, Torenbeek min (x1 aisle)",NaN
 sidewall_in,2,in,Input,"Sidewall clearance per side (x2 sides)",NaN
 headroom_base_m,1.95,m,Input,"Base headroom (Torenbeek)",NaN
 exit_door_small_in,20,in,Input,"Small exit door width (FAR 25.807)",NaN
@@ -122,34 +123,35 @@ V_req,298.949579831933,m^3,Output,"Total required hold volume",NaN
 N_rows,34,rows,Output,"ULD rows (LD3*2 across)",NaN
 V_row,9,m^3,Output,"Volume per ULD row",NaN
 W_row,4.0132,m,Output,"Width per ULD row",NaN
-W_eco,5.461,m,Output,"Economy cabin width",NaN
-W_bu,3.6068,m,Output,"Business class cabin width",NaN
-W_norm,4.1656,m,Output,"Normal cabin width",NaN
+W_eco,5.2578,m,Output,"Economy cabin width",NaN
+W_bu,3.4036,m,Output,"Business class cabin width",NaN
+W_norm,3.9624,m,Output,"Normal cabin width",NaN
 L_2_bed,3.7,m,Output,"2-bed cabin length",NaN
 W_bed,0.76,m,Output,"1-bed cabin width",NaN
 bed_margin,1.1,-,Output,"2-bed cabin width margin",NaN
-W_cabin,5.461,m,Output,"Cabin width",NaN
+W_cabin,5.2578,m,Output,"Cabin width",NaN
 H_Headroom,1.96,m,Output,"Required total headroom with margin",NaN
 H_cargo,1.6256,m,Output,"Cargo hold height (ULD height)",NaN
-D_inner,5.478,m,Output,"Fuselage inner diameter",NaN
-D_outer,5.8336,m,Output,"Fuselage outer diameter",NaN
-y_floor_upper_surface,-0.8395,m,Output,"Upper surface floor cabin in axis y direction take centre of fuselage as origin",NaN
+D_inner,5.51274637591485,m,Output,"Fuselage inner diameter",NaN
+D_outer,5.86834637591485,m,Output,"Fuselage outer diameter",NaN
+y_floor_upper_surface,0.214426812042574,m,Output,"Upper surface floor cabin in axis y direction take centre of fuselage as origin",NaN
+X_hold_below,0.640709057119109,m,Output,"hold below the cargo box LD3",NaN
 n_eco_rows,16,rows,Output,"Economy seat rows",NaN
 n_rows_cab,22,rows,Output,"Total cabin rows",NaN
 Total_seat_pitch,18.4912,m,Output,"Total seat-pitch length",NaN
 L_cabin,19.5416662173707,m,Output,"Cabin length",NaN
 V_galley,8.4950539776,m^3,Output,"Total galley volume",NaN
 L_galley_front,0.748413319011815,m,Output,"Galley front length",NaN
-L_galley_back,0.728683795067455,m,Output,"Galley back length",NaN
-L_galley,1.47709711407927,m,Output,"Total galley length",NaN
+L_galley_back,0.763459629338137,m,Output,"Galley back length",NaN
+L_galley,1.51187294834995,m,Output,"Total galley length",NaN
 L_cross,2,m,Output,"Cross-horizontal length",NaN
-L_nose,8.7504,m,Output,"Nose length",NaN
-L_tail,10.2088,m,Output,"Tail length",NaN
+L_nose,8.80251956387228,m,Output,"Nose length",NaN
+L_tail,10.269606157851,m,Output,"Tail length",NaN
 L_under,44.8447146870154,m,Output,"Stored cargo length from in lowerdesk",NaN
-L_main,44.350708960838,m,Output,"Stored cargo length from in upperdesk",NaN
-Tot_under,63.8039146870154,m,Output,"Total length lowerdeck with nose and tail",NaN
-Tot_upper,63.309908960838,m,Output,"Total length upperdeck with nose and tail",NaN
-L_total,64.8039146870154,m,Output,"Governing total plane length (nose+tail+fuselage)",NaN
+L_main,44.3854847951087,m,Output,"Stored cargo length from in upperdesk",NaN
+Tot_under,63.9168404087387,m,Output,"Total length lowerdeck with nose and tail",NaN
+Tot_upper,63.4576105168319,m,Output,"Total length upperdeck with nose and tail",NaN
+L_total,64.9168404087387,m,Output,"Governing total plane length (nose+tail+fuselage)",NaN
 alt_cruise,11277.6,m,Output,"Cruise altitude",NaN
 V_cruise,241.956986467356,m/s,Output,"Cruise speed",NaN
 V_cruise2,189.619122777902,m/s,Output,"Cruise speed 2",NaN
@@ -167,4 +169,3 @@ W_e,126360.516094463,kg,Output,"Converged empty weight",NaN
 iter,41,count,Output,"Converged iteration count to mass",NaN
 Wing_loading,6082.01025128141,kg/m^2,Output,"Wing loading",NaN
 Thrust_to_weight,0.29834142601804,-,Output,"Thrust-to-weight ratio",NaN
-W_pax_bags,14850,,,"",0
