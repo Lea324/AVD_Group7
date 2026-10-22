@@ -1,171 +1,171 @@
-Parameter,Value,Unit,Type,Description,Var5
-n_first,24,seats,Input,"Number of first-class seats",NaN
-n_eco,126,seats,Input,"Number of economy-class seats",NaN
-m_pax,84,kg,Input,"EASA standard adult pax mass, incl 6 kg hand bag",NaN
-m_hand,0,kg,Input,"Hand baggage mass (subset of m_pax)",NaN
-m_chk,15,kg,Input,"Checked baggage mass per pax (EASA intercontinental)",NaN
-rho_bag,200,kg/m^3,Input,"Baggage density",NaN
-eta,0.875,-,Input,"Hold/cargo loading efficiency",NaN
-W_cargo,40000,kg,Input,"Cargo payload mass",NaN
-rho_cargo,160,kg/m^3,Input,"Cargo density 10",NaN
-V_LD4,5.5,m^3,Input,"LD4 ULD volume",NaN
-V_LD8,6.8,m^3,Input,"LD8 ULD volume",NaN
-W_LD4_in,96,in,Input,"LD4 ULD top width",NaN
-W_LD8_in,125,in,Input,"LD8 ULD top width",NaN
-V_LD3,4.5,m^3,Input,"LD3 ULD volume",NaN
-W_LD3_in,79,in,Input,"LD3 ULD top width",NaN
-ULD_depth_in,60.4,in,Input,"ULD depth along fuselage axis",NaN
-clear_hold,0.1,m,Input,"Cargo hold clearance",NaN
-b_eco_in,57,in,Input,"Economy 3-seat block width (Roskam)",NaN
-b_bus,47,in,Input,"Business 2-seat block width (Roskam)",NaN
-b_bus_1,25.5,in,Input,"Business 2-seat block width (Roskam)",NaN
-b_norm,40,in,Input,"Normal 2-seat block width (Roskam)",NaN
-aisle_eco_in,18,in,Input,"Aisle width, Torenbeek min (x2 aisles)",NaN
-aisle_bus_in,20,in,Input,"Aisle width, Torenbeek min (x1 aisle)",NaN
-sidewall_in,2,in,Input,"Sidewall clearance per side (x2 sides)",NaN
-headroom_base_m,1.95,m,Input,"Base headroom (Torenbeek)",NaN
-exit_door_small_in,20,in,Input,"Small exit door width (FAR 25.807)",NaN
-exit_door_large_in,24,in,Input,"Large exit door width (FAR 25.807)",NaN
-headroom_margin_m,0.01,m,Input,"Headroom margin",NaN
-ULD_height_in,64,in,Input,"ULD height (all ULDs)",NaN
-wall_thickness_in,7,in,Input,"Fuselage wall thickness",NaN
-armrest_height_in,25,in,Input,"Armrest height (Torenbeek)",NaN
-floor_camber_factor,0.05,-,Input,"Cargo floor camber factor",NaN
-R_min,1.75,m,Input,"Inner-radius sweep: lower bound",NaN
-R_max,8,m,Input,"Inner-radius sweep: upper bound",NaN
-R_step,0.001,m,Input,"Inner-radius sweep: step size",NaN
-n_first_rows,6,rows,Input,"First-class rows (3x4 layout)",NaN
-eco_abreast,9,seats/row,Input,"Economy seats abreast",NaN
-first_pitch_in,36,in,Input,"First-class seat pitch",NaN
-eco_pitch_in,32,in,Input,"Economy seat pitch",NaN
-norm_pitch_in,32,in,Input,"Normal seat pitch",NaN
-wc_length_m,1,m,Input,"Length per lavatory block",NaN
-galley_vol_per_pax_ft3,2,ft^3/pax,Input,"Galley volume per passenger",NaN
-cross_aisle_rows,20,rows,Input,"Seat rows per cross aisle",NaN
-cross_aisle_len_m,1,m,Input,"Cross aisle length",NaN
-Ln_d,1.5,-,Input,"Nose length-to-diameter ratio",NaN
-Lt_d,1.75,-,Input,"Tail length-to-diameter ratio",NaN
-f_const_section,0.65,-,Input,"Constant-section hold fraction (f)",NaN
-fraction_hold,0.558824,-,Input,"Fraction of constant section usable as hold",NaN
-L_vertical_stabiliser,1,m,Input,"Vertical stabiliser length extra to tail length",NaN
-AR,9,-,Input,"Wing aspect ratio",NaN
-Swet_Sref,6.2,-,Input,"Wetted area ratio",NaN
-S_ref,468.657384820577,m^2,Input,"Wing reference area",NaN
-W_0_guess_init,300000,kg,Input,"Initial MTOW guess",NaN
-Oswald_efficiency_factor,0.7,-,Input,"Oswald efficiency factor",NaN
-CD0,0.0186,-,Input,"Zero-lift drag coefficient",NaN
-V_climb,150,m/s,Input,"Climb speed",NaN
-climb_gradient_1st,0.024,-,Input,"Climb gradient",NaN
-climb_gradient_2nd,0.024,-,Input,"Climb gradient for second climb segment",NaN
-alpha_cruise,0.25,-,Input,"Available thrust relative to sea-level thrust",NaN
-alpha_alt,0.5,-,Input,"Available thrust relative to sea-level thrust at diversion altitude",NaN
-alpha_loiter,0.2,-,Input,"Available thrust relative to sea-level thrust at loiter",NaN
-alpha_ceiling,0.2,-,Input,"Available thrust relative to sea-level thrust at ceiling",NaN
-ROC,0,-,Input,"Absolute ceiling approximation",NaN
-CLmax_Landing,2.5,-,Input,"Landing maximum lift coefficient",NaN
-Vstall_Landing,45.6437004173115,m/s,Input,"Landing stall speed",NaN
-Vstall_cruise,72.5870959402068,m/s,Input,"Cruise stall speed",NaN
-Vstall_takeoff,62.92573383504,m/s,Input,"Takeoff stall speed",NaN
-V_x,270.536511767643,m/s,Input,"Best angle-of-climb speed",NaN
-M_cruise,0.82,-,Input,"Cruise Mach number",NaN
-M_cruise_2,0.6,-,Input,"Cruise Mach number 2",NaN
-abs_ceiling_ft,42000,ft,Input,"Absolute ceiling",NaN
-cruise_alt_offset_ft,5000,ft,Input,"Cruise altitude offset below ceiling",NaN
-cruise_alt_ft,37000,ft,Input,"Cruise altitude 1",NaN
-cruise_alt2_ft,20000,ft,Input,"Cruise altitude 2",NaN
-loiter_alt_ft,5000,ft,Input,"Loiter altitude",NaN
-gamma_air,1.4,-,Input,"Ratio of specific heats, air",NaN
-R_air,287,J/(kg K),Input,"Specific gas constant, air",NaN
-T_cruise_K,216.65,K,Input,"ISA temperature at cruise altitude",NaN
-loiter_speed_divisor,3,-,Input,"Loiter speed divisor base",NaN
-loiter_speed_power,0.25,-,Input,"Loiter speed divisor exponent",NaN
-K_LD,15.5,-,Input,"Wetted-aspect-ratio L/D constant",NaN
-cruise_LD_factor,0.866,-,Input,"Cruise L/D as fraction of L/D max",NaN
-sfc_cruise_mg,13,mg/(N s),Input,"Cruise TSFC",NaN
-sfc_cruise2_mg,11.13,mg/(N s),Input,"Cruise TSFC 2",NaN
-sfc_loiter_mg,11.43,mg/(N s),Input,"Loiter TSFC",NaN
-Wr_taxi_takeoff,0.97,-,Input,"Weight fraction: taxi & takeoff",NaN
-Wr_climb,0.985,-,Input,"Weight fraction: climb & accelerate to cruise",NaN
-R_cruise_nmi,5500,nmi,Input,"Cruise range",NaN
-Wr_cruise,0.717506639646417,-,Input,"Weight fraction: cruise",NaN
-Wr_descent,0.995,-,Input,"Weight fraction: descent to land",NaN
-Wr_cruise_alt,0.986912663658876,-,Input,"Weight fraction: cruise",NaN
-Wr_missed_approach,0.985,-,Input,"Weight fraction: missed approach climb",NaN
-R_alt_km,370,km,Input,"Diversion (alternate) range",NaN
-E_loiter_min,45,min,Input,"Loiter time",NaN
-Wr_loiter,0.983919247134346,-,Input,"Weight fraction: loiter",NaN
-Wr_land_taxi,0.995,-,Input,"Weight fraction: descent + landing & taxi",NaN
-fuel_margin,0.06,-,Input,"Fuel reserve margin multiplier page 524",NaN
-A_coef,0.97,-,Input,"Empty-weight regression coefficient A",NaN
-C_coef,-0.06,-,Input,"Empty-weight regression coefficient C",NaN
-b_mass,99,kg,Input,"First/business class pax + bag mass",NaN
-e_mass,99,kg,Input,"Economy pax + bag mass",NaN
-n_pilots,3,count,Input,"Number of pilots",NaN
-pilot_mass,85,kg,Input,"Pilot mass",NaN
-n_cabin_crew,5,count,Input,"Number of cabin crew",NaN
-cabin_crew_mass,75,kg,Input,"Cabin crew mass",NaN
-tol,0.1,kg,Input,"MTOW convergence tolerance",NaN
-max_iter,100,count,Input,"Max convergence iterations",NaN
-L_runway,3000,m,Input,"Runway length requirement",NaN
-a_AR,9.5,-,Input,"Aspect ratio a dont use",NaN
-c_AR,0,-,Input,"Aspect ratio c",NaN
-lambda,0.45,-,Input,"Taper ratio",NaN
-Sweep_LE,35,deg,Input,"Leading-edge sweep",NaN
-twist_angle,-3,deg,Input,"Wing twist angle",NaN
-fuel_density,0.79,kg/L,Input,"Fuel density",NaN
-n_pax,150,pax,Output,"Total passengers (n_first+n_eco)",NaN
-W_chk,2250,kg,Output,"Checked baggage mass (n_pax*m_chk)",NaN
-W_pax,16518,kg,Output,"Pax+checked bag mass (n_pax*(m_pax+m_chk))",NaN
-V_chk,13.2352941176471,m^3,Output,"Checked-bag hold volume",NaN
-V_hand,5.14285714285714,m^3,Output,"Hand-bag stowage volume",NaN
-V_cargo,285.714285714286,m^3,Output,"Freight cargo volume",NaN
-V_req,298.949579831933,m^3,Output,"Total required hold volume",NaN
-N_rows,34,rows,Output,"ULD rows (LD3*2 across)",NaN
-V_row,9,m^3,Output,"Volume per ULD row",NaN
-W_row,4.0132,m,Output,"Width per ULD row",NaN
-W_eco,5.2578,m,Output,"Economy cabin width",NaN
-W_bu,3.4036,m,Output,"Business class cabin width",NaN
-W_norm,3.9624,m,Output,"Normal cabin width",NaN
-L_2_bed,3.7,m,Output,"2-bed cabin length",NaN
-W_bed,0.76,m,Output,"1-bed cabin width",NaN
-bed_margin,1.1,-,Output,"2-bed cabin width margin",NaN
-W_cabin,5.2578,m,Output,"Cabin width",NaN
-H_Headroom,1.96,m,Output,"Required total headroom with margin",NaN
-H_cargo,1.6256,m,Output,"Cargo hold height (ULD height)",NaN
-D_inner,5.51274637591485,m,Output,"Fuselage inner diameter",NaN
-D_outer,5.86834637591485,m,Output,"Fuselage outer diameter",NaN
-y_floor_upper_surface,0.214426812042574,m,Output,"Upper surface floor cabin in axis y direction take centre of fuselage as origin",NaN
-X_hold_below,0.640709057119109,m,Output,"hold below the cargo box LD3",NaN
-n_eco_rows,16,rows,Output,"Economy seat rows",NaN
-n_rows_cab,22,rows,Output,"Total cabin rows",NaN
-Total_seat_pitch,18.4912,m,Output,"Total seat-pitch length",NaN
-L_cabin,19.5416662173707,m,Output,"Cabin length",NaN
-V_galley,8.4950539776,m^3,Output,"Total galley volume",NaN
-L_galley_front,0.748413319011815,m,Output,"Galley front length",NaN
-L_galley_back,0.763459629338137,m,Output,"Galley back length",NaN
-L_galley,1.51187294834995,m,Output,"Total galley length",NaN
-L_cross,2,m,Output,"Cross-horizontal length",NaN
-L_nose,8.80251956387228,m,Output,"Nose length",NaN
-L_tail,10.269606157851,m,Output,"Tail length",NaN
-L_under,44.8447146870154,m,Output,"Stored cargo length from in lowerdesk",NaN
-L_main,44.3854847951087,m,Output,"Stored cargo length from in upperdesk",NaN
-Tot_under,63.9168404087387,m,Output,"Total length lowerdeck with nose and tail",NaN
-Tot_upper,63.4576105168319,m,Output,"Total length upperdeck with nose and tail",NaN
-L_total,64.9168404087387,m,Output,"Governing total plane length (nose+tail+fuselage)",NaN
-alt_cruise,11277.6,m,Output,"Cruise altitude",NaN
-V_cruise,241.956986467356,m/s,Output,"Cruise speed",NaN
-V_cruise2,189.619122777902,m/s,Output,"Cruise speed 2",NaN
-V_loiter,183.847552710617,m/s,Output,"Loiter speed",NaN
-AR_wetted,1.45161290322581,-,Output,"Wetted aspect ratio",NaN
-LD_max,18.6748493969831,-,Output,"Max lift-to-drag ratio",NaN
-LD_loiter,18.6748493969831,-,Output,"Loiter lift-to-drag ratio",NaN
-LD_cruise,16.1724195777874,-,Output,"Cruise lift-to-drag ratio",NaN
-W_fuel_fraction,0.368428251635278,-,Output,"Fuel weight fraction (Wf/W0)",NaN
-b_ratio,0.08,-,Output,"First/business class pax fraction",NaN
-W_crew,630,kg,Output,"Crew mass",NaN
-W_0_guess,290558.513640926,kg,Output,"Converged MTOW",NaN
-W_f,107049.997546463,kg,Output,"Converged fuel weight",NaN
-W_e,126360.516094463,kg,Output,"Converged empty weight",NaN
-iter,41,count,Output,"Converged iteration count to mass",NaN
-Wing_loading,6082.01025128141,kg/m^2,Output,"Wing loading",NaN
-Thrust_to_weight,0.29834142601804,-,Output,"Thrust-to-weight ratio",NaN
+Parameter,Value,Unit,Description,Notes
+n_first,24,seats,"Number of first-class seats",Used by current scripts.
+n_eco,126,seats,"Number of economy-class seats",Used by current scripts.
+m_pax,84,kg,"EASA standard adult pax mass, incl 6 kg hand bag",Useless in current calculations: loaded but not used; passenger mass is hardcoded in mass sizing.
+m_hand,0,kg,"Hand baggage mass (subset of m_pax)",Useless in current calculations: loaded but not used.
+m_chk,15,kg,"Checked baggage mass per pax (EASA intercontinental)",Useless in current calculations: loaded but not used; W_chk is read directly.
+rho_bag,200,kg/m^3,"Baggage density",Used by current scripts.
+eta,0.875,-,"Hold/cargo loading efficiency",Used by current scripts.
+W_cargo,40000,kg,"Cargo payload mass",Used by current scripts.
+rho_cargo,160,kg/m^3,"Cargo density 10",Used by current scripts.
+V_LD4,5.5,m^3,"LD4 ULD volume",Useless in current scripts: LD3 volume is used instead.
+V_LD8,6.8,m^3,"LD8 ULD volume",Useless in current scripts: LD3 volume is used instead.
+W_LD4_in,96,in,"LD4 ULD top width",Useless in current scripts: references occur only in comments; LD3 width is used.
+W_LD8_in,125,in,"LD8 ULD top width",Useless in current scripts: references occur only in comments; LD3 width is used.
+V_LD3,4.5,m^3,"LD3 ULD volume",Used by current scripts.
+W_LD3_in,79,in,"LD3 ULD top width",Used by current scripts.
+ULD_depth_in,60.4,in,"ULD depth along fuselage axis",Used by current scripts.
+clear_hold,0.1,m,"Cargo hold clearance",Useless in current scripts: not read or updated.
+b_eco_in,57,in,"Economy 3-seat block width (Roskam)",Used by current scripts.
+b_bus,47,in,"Business 2-seat block width (Roskam)",Used by current scripts.
+b_bus_1,25.5,in,"Business single-seat width (Roskam)",Used by current scripts.
+b_norm,40,in,"Standard 2-seat block width (Roskam)",Used by current scripts.
+aisle_eco_in,18,in,"Aisle width, Torenbeek min (x2 aisles)",Used by current scripts.
+aisle_bus_in,20,in,"Aisle width, Torenbeek min (x1 aisle)",Useless in current scripts: not read or updated.
+sidewall_in,2,in,"Sidewall clearance per side (x2 sides)",Useless in current scripts: sidewall clearance is hardcoded instead.
+headroom_base_m,1.95,m,"Base headroom (Torenbeek)",Used by current scripts.
+exit_door_small_in,20,in,"Small exit door width (FAR 25.807)",Used by current scripts.
+exit_door_large_in,24,in,"Large exit door width (FAR 25.807)",Used by current scripts.
+headroom_margin_m,0.01,m,"Headroom margin",Used by current scripts.
+ULD_height_in,64,in,"ULD height (all ULDs)",Used by current scripts.
+wall_thickness_in,7,in,"Fuselage wall thickness",Used by current scripts.
+armrest_height_in,25,in,"Armrest height (Torenbeek)",Useless in current calculations: loaded as H_arm but never used.
+floor_camber_factor,0.05,-,"Cargo floor camber factor",Useless in current scripts: floor geometry uses hardcoded factors instead.
+R_min,1.75,m,"Inner-radius sweep: lower bound",Useless in current scripts: the initial radius is solved symbolically instead.
+R_max,8,m,"Inner-radius sweep: upper bound",Useless in current scripts: the radius upper bound is hardcoded instead.
+R_step,0.001,m,"Inner-radius sweep: step size",Useless in current scripts: the radius step is hardcoded instead.
+n_first_rows,6,rows,"First-class rows (3x4 layout)",Recorded result; recalculated from n_first rather than read from this row.
+eco_abreast,9,seats/row,"Economy seats abreast",Useless in current scripts: seating counts are hardcoded instead.
+first_pitch_in,36,in,"First-class seat pitch",Useless in current scripts: first-class pitch is hardcoded instead.
+eco_pitch_in,32,in,"Economy seat pitch",Useless in current scripts: economy pitch is hardcoded instead.
+norm_pitch_in,32,in,"Normal seat pitch",Useless in current scripts: not read or updated.
+wc_length_m,1,m,"Length per lavatory block",Used by current scripts.
+galley_vol_per_pax_ft3,2,ft^3/pax,"Galley volume per passenger",Used by current scripts.
+cross_aisle_rows,20,rows,"Seat rows per cross aisle",Useless in current scripts: cross-aisle row spacing is hardcoded instead.
+cross_aisle_len_m,1,m,"Cross aisle length",Useless in current scripts: cross-aisle length is hardcoded instead.
+Ln_d,1.5,-,"Nose length-to-diameter ratio",Used by current scripts.
+Lt_d,1.75,-,"Tail length-to-diameter ratio",Used by current scripts.
+f_const_section,0.65,-,"Constant-section hold fraction (f)",Used by current scripts.
+fraction_hold,0.558824,-,"Fraction of constant section usable as hold",Used by current scripts.
+L_vertical_stabiliser,1,m,"Vertical stabiliser length extra to tail length",Used by current scripts.
+AR,9,-,"Wing aspect ratio",Used by current scripts.
+Swet_Sref,6.2,-,"Wetted area ratio",Used by current scripts.
+S_ref,468.657384820577,m^2,"Wing reference area",Read and updated by current scripts.
+W_0_guess_init,300000,kg,"Initial MTOW guess",Used by current scripts.
+Oswald_efficiency_factor,0.7,-,"Oswald efficiency factor",Used by current scripts.
+CD0,0.0186,-,"Zero-lift drag coefficient",Used by current scripts.
+V_climb,150,m/s,"Climb speed",Used by current scripts.
+climb_gradient_1st,0.024,-,"Climb gradient",Useless in current scripts: referenced only in Old Code.
+climb_gradient_2nd,0.024,-,"Climb gradient for second climb segment",Used by current scripts.
+alpha_cruise,0.25,-,"Available thrust relative to sea-level thrust",Useless in current scripts: referenced only in Old Code.
+alpha_alt,0.5,-,"Available thrust relative to sea-level thrust at diversion altitude",Useless in current scripts: referenced only in Old Code.
+alpha_loiter,0.2,-,"Available thrust relative to sea-level thrust at loiter",Useless in current scripts: referenced only in Old Code.
+alpha_ceiling,0.2,-,"Available thrust relative to sea-level thrust at ceiling",Useless in current scripts: referenced only in Old Code.
+ROC,0,-,"Absolute ceiling approximation",Useless in current scripts: referenced only in Old Code.
+CLmax_Landing,2.5,-,"Landing maximum lift coefficient",Useless in current scripts: referenced only in Old Code.
+Vstall_Landing,45.6437004173115,m/s,"Landing stall speed",Read and updated by current scripts.
+Vstall_cruise,72.5870959402068,m/s,"Cruise stall speed",Read and updated by current scripts.
+Vstall_takeoff,62.92573383504,m/s,"Takeoff stall speed",Read and updated by current scripts.
+V_x,270.536511767643,m/s,"Best angle-of-climb speed",Recorded by the current constraint script; the stored value is not read by current scripts.
+M_cruise,0.82,-,"Cruise Mach number",Used by current scripts.
+M_cruise_2,0.6,-,"Alternate-cruise Mach number",Used by current scripts.
+abs_ceiling_ft,42000,ft,"Absolute ceiling",Used by current scripts.
+cruise_alt_offset_ft,5000,ft,"Cruise altitude offset below ceiling",Used by current scripts.
+cruise_alt_ft,37000,ft,"Cruise altitude 1",Used by current scripts.
+cruise_alt2_ft,20000,ft,"Cruise altitude 2",Used by current scripts.
+loiter_alt_ft,5000,ft,"Loiter altitude",Useless in current calculations: loaded but never used; retained references exist in Old Code.
+gamma_air,1.4,-,"Ratio of specific heats, air",Useless in current scripts: referenced only in Old Code.
+R_air,287,J/(kg K),"Specific gas constant, air",Useless in current scripts: referenced only in Old Code.
+T_cruise_K,216.65,K,"ISA temperature at cruise altitude",Useless in current scripts: referenced only in Old Code.
+loiter_speed_divisor,3,-,"Loiter speed divisor base",Used by current scripts.
+loiter_speed_power,0.25,-,"Loiter speed divisor exponent",Used by current scripts.
+K_LD,15.5,-,"Wetted-aspect-ratio L/D constant",Used by current scripts.
+cruise_LD_factor,0.866,-,"Cruise L/D as fraction of L/D max",Used by current scripts.
+sfc_cruise_mg,13,mg/(N s),"Cruise TSFC",Used by current scripts.
+sfc_cruise2_mg,11.13,mg/(N s),"Alternate-cruise TSFC",Used by current scripts.
+sfc_loiter_mg,11.43,mg/(N s),"Loiter TSFC",Used by current scripts.
+Wr_taxi_takeoff,0.97,-,"Weight fraction: taxi & takeoff",Used by current scripts.
+Wr_climb,0.985,-,"Weight fraction: climb & accelerate to cruise",Used by current scripts.
+R_cruise_nmi,5500,nmi,"Cruise range",Used by current scripts.
+Wr_cruise,0.717506639646417,-,"Weight fraction: cruise",Read and updated by current scripts.
+Wr_descent,0.995,-,"Weight fraction: descent to land",Used by current scripts.
+Wr_cruise_alt,0.986912663658876,-,"Weight fraction: alternate cruise",Read and updated by current scripts.
+Wr_missed_approach,0.985,-,"Weight fraction: missed approach climb",Used by current scripts.
+R_alt_km,370,km,"Diversion (alternate) range",Used by current scripts.
+E_loiter_min,45,min,"Loiter time",Used by current scripts.
+Wr_loiter,0.983919247134346,-,"Weight fraction: loiter",Read and updated by current scripts.
+Wr_land_taxi,0.995,-,"Weight fraction: descent + landing & taxi",Used by current scripts.
+fuel_margin,0.06,-,"Fuel reserve margin multiplier page 524",Used by current scripts.
+A_coef,0.97,-,"Empty-weight regression coefficient A",Used by current scripts.
+C_coef,-0.06,-,"Empty-weight regression coefficient C",Used by current scripts.
+b_mass,99,kg,"First/business class pax + bag mass",Useless in current calculations: loaded but not used; passenger mass is hardcoded instead.
+e_mass,99,kg,"Economy pax + bag mass",Useless in current calculations: loaded but not used; passenger mass is hardcoded instead.
+n_pilots,3,count,"Number of pilots",Used by current scripts.
+pilot_mass,85,kg,"Pilot mass",Used by current scripts.
+n_cabin_crew,5,count,"Number of cabin crew",Used by current scripts.
+cabin_crew_mass,75,kg,"Cabin crew mass",Used by current scripts.
+tol,0.1,kg,"MTOW convergence tolerance",Used by current scripts.
+max_iter,100,count,"Max convergence iterations",Used by current scripts.
+L_runway,3000,m,"Runway length requirement",Used by current scripts.
+a_AR,9.5,-,"Aspect ratio a dont use",Used only for the AR_cal estimate; actual wing sizing uses AR.
+c_AR,0,-,"Aspect ratio c",Used only for the AR_cal estimate; actual wing sizing uses AR.
+lambda,0.45,-,"Taper ratio",Used by current scripts.
+Sweep_LE,35,deg,"Leading-edge sweep",Used by current scripts.
+twist_angle,-3,deg,"Wing twist angle",Used by current scripts.
+fuel_density,0.79,kg/L,"Fuel density",Useless in current scripts: not read or updated.
+n_pax,150,pax,"Total passengers (n_first+n_eco)",Read and updated by current scripts.
+W_chk,2250,kg,"Checked baggage mass (n_pax*m_chk)",Used by current scripts.
+W_pax,16518,kg,"Passenger and baggage mass",Read and updated by current scripts.
+V_chk,13.2352941176471,m^3,"Checked-bag hold volume",Recorded result; stored value is not read by current scripts.
+V_hand,5.14285714285714,m^3,"Hand-bag stowage volume",Useless in current scripts: not read or updated.
+V_cargo,285.714285714286,m^3,"Freight cargo volume",Recorded result; stored value is not read by current scripts.
+V_req,298.949579831933,m^3,"Total required hold volume",Recorded result; stored value is not read by current scripts.
+N_rows,34,rows,"ULD rows (LD3*2 across)",Recorded result; stored value is not read by current scripts.
+V_row,9,m^3,"Volume per ULD row",Recorded result; stored value is not read by current scripts.
+W_row,4.0132,m,"Width per ULD row",Recorded result; stored value is not read by current scripts.
+W_eco,5.2578,m,"Economy cabin width",Recorded result; stored value is not read by current scripts.
+W_bu,3.4036,m,"Business class cabin width",Recorded result; stored value is not read by current scripts.
+W_norm,3.9624,m,"Standard cabin width",Recorded result; stored value is not read by current scripts.
+L_2_bed,3.7,m,"2-bed cabin length",Recorded result; stored value is not read by current scripts.
+W_bed,0.76,m,"1-bed cabin width",Used by current scripts.
+bed_margin,1.1,-,"2-bed cabin width margin",Used by current scripts.
+W_cabin,5.2578,m,"Cabin width",Recorded result; stored value is not read by current scripts.
+H_Headroom,1.96,m,"Required total headroom with margin",Recorded result; stored value is not read by current scripts.
+H_cargo,1.6256,m,"Cargo hold height (ULD height)",Recorded result; stored value is not read by current scripts.
+D_inner,5.51274637591485,m,"Fuselage inner diameter",Recorded result; stored value is not read by current scripts.
+D_outer,5.86834637591485,m,"Fuselage outer diameter",Recorded result; stored value is not read by current scripts.
+y_floor_upper_surface,0.214426812042574,m,"Cabin floor upper-surface y coordinate relative to fuselage centre",Recorded result; stored value is not read by current scripts.
+X_hold_below,0.640709057119109,m,"Clearance below the LD3 cargo box",Recorded result; stored value is not read by current scripts.
+n_eco_rows,16,rows,"Economy seat rows",Recorded result; stored value is not read by current scripts.
+n_rows_cab,22,rows,"Total cabin rows",Recorded result; stored value is not read by current scripts.
+Total_seat_pitch,18.4912,m,"Total seat-pitch length",Recorded result; stored value is not read by current scripts.
+L_cabin,19.5416662173707,m,"Cabin length",Useless as a CSV entry: calculated locally but never read from or written to this row; stored value may be stale.
+V_galley,8.4950539776,m^3,"Total galley volume",Recorded result; stored value is not read by current scripts.
+L_galley_front,0.748413319011815,m,"Galley front length",Recorded result; stored value is not read by current scripts.
+L_galley_back,0.763459629338137,m,"Galley back length",Recorded result; stored value is not read by current scripts.
+L_galley,1.51187294834995,m,"Total galley length",Recorded result; stored value is not read by current scripts.
+L_cross,2,m,"Total cross-aisle length",Recorded result; stored value is not read by current scripts.
+L_nose,8.80251956387228,m,"Nose length",Recorded result; stored value is not read by current scripts.
+L_tail,10.269606157851,m,"Tail length",Recorded result; stored value is not read by current scripts.
+L_under,44.8447146870154,m,"Lower-deck cargo-section length",Recorded result; stored value is not read by current scripts.
+L_main,44.3854847951087,m,"Upper-deck cabin and cargo-section length",Recorded result; stored value is not read by current scripts.
+Tot_under,63.9168404087387,m,"Lower-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
+Tot_upper,63.4576105168319,m,"Upper-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
+L_total,64.9168404087387,m,"Governing total plane length (nose+tail+fuselage)",Read and updated by current scripts.
+alt_cruise,11277.6,m,"Cruise altitude",Useless as a CSV entry: calculated from cruise_alt_ft locally but never read from or written to this row.
+V_cruise,241.956986467356,m/s,"Cruise speed",Read and updated by current scripts.
+V_cruise2,189.619122777902,m/s,"Alternate-cruise speed",Recorded result; stored value is not read by current scripts.
+V_loiter,183.847552710617,m/s,"Loiter speed",Read and updated by current scripts.
+AR_wetted,1.45161290322581,-,"Wetted aspect ratio",Recorded result; stored value is not read by current scripts.
+LD_max,18.6748493969831,-,"Max lift-to-drag ratio",Read and updated by current scripts.
+LD_loiter,18.6748493969831,-,"Loiter lift-to-drag ratio",Read and updated by current scripts.
+LD_cruise,16.1724195777874,-,"Cruise lift-to-drag ratio",Read and updated by current scripts.
+W_fuel_fraction,0.368428251635278,-,"Fuel weight fraction (Wf/W0)",Recorded result; stored value is not read by current scripts.
+b_ratio,0.08,-,"First/business class pax fraction",Useless as a CSV entry: calculated locally but never read from or written to this row.
+W_crew,630,kg,"Crew mass",Read and updated by current scripts.
+W_0_guess,290558.513640926,kg,"Converged maximum takeoff mass",Read and updated by current scripts.
+W_f,107049.997546463,kg,"Converged fuel mass",Read and updated by current scripts.
+W_e,126360.516094463,kg,"Converged empty mass",Read and updated by current scripts.
+iter,41,count,"Mass convergence iteration count",Recorded result; stored value is not read by current scripts.
+Wing_loading,6082.01025128141,kg/m^2,"Wing loading",Read and updated by current scripts. Unit label retained as requested; code calculates force per area rather than mass per area.
+Thrust_to_weight,0.29834142601804,-,"Thrust-to-weight ratio",Read and updated by current scripts.
