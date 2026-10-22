@@ -39,19 +39,6 @@ The recent cleanup passed static MATLAB syntax checks and executable-token compa
 
 ## Running the calculations
 
-Open your project folder in MATLAB, for example `C:\avd` on Windows. The sizing scripts read and overwrite `Key_Param_recording.csv` in MATLAB's **current working directory**. The constraint script also writes to that same file.
-
-To inspect the calculations without overwriting the working parameter record, create a separate run folder:
-
-```matlab
-projectFolder = 'C:\avd';
-runFolder = tempname;
-mkdir(runFolder);
-copyfile(fullfile(projectFolder, '*.mlx'), runFolder);
-copyfile(fullfile(projectFolder, 'Key_Param_recording.csv'), runFolder);
-cd(runFolder);
-```
-
 Starting from the existing parameter record, run and inspect each sizing script individually:
 
 ```matlab
@@ -60,12 +47,6 @@ run('Fuselage_sizing_double_new_readinput.mlx');
 run('Wing_design.mlx');
 run('untitled.mlx');
 ```
-
-This is an initial pass, not an automatically converged aircraft-design pipeline:
-
-- Mass initiation uses the stored passenger count `n_pax`; fuselage sizing recalculates it from `n_first` and `n_eco`. If seat counts change, ensure the stored passenger count is consistent before mass sizing.
-- Wing design calculates stall speeds consumed by the constraint diagram. The constraint diagram updates wing area and wing loading, which wing design consumes. Revisit these two scripts when the selected design point changes.
-- The scripts retain local hardcoded assumptions as well as CSV settings. Changing a similarly named CSV entry does not necessarily change a hardcoded expression.
 
 After reviewing the sizing, run engine selection and mission scripts as needed:
 
@@ -79,7 +60,7 @@ Presentation scripts that read the shared CSV also need the intended parameter r
 
 ## Parameter record
 
-[Key_Param_recording.csv](Key_Param_recording.csv) contains **170 parameters**:
+[Key_Param_recording.csv](Key_Param_recording.csv):
 
 | Column | Meaning |
 | --- | --- |
@@ -89,13 +70,6 @@ Presentation scripts that read the shared CSV also need the intended parameter r
 | `Description` | Physical or computational meaning. |
 | `Notes` | Usage in current scripts, including recorded results, unused settings, and legacy-only references. |
 
-The former `Type` column and its Input/Output labels were removed, together with the placeholder `Var5` column. All parameter names, numerical value strings, units, and row order were preserved during cleanup.
-
-Entries marked **“Useless”** are unused in current calculations, loaded without affecting calculations, or referenced only by historical scripts, as explained in each row. They remain for traceability. Recorded results are kept even when another current script does not read them. Revisit these notes when the code changes.
-
-Some recorded entries are not refreshed by the scripts. For example, `L_cabin` is calculated locally in fuselage sizing but is not written back to its CSV row, so its stored value can be stale.
-
-The `Wing_loading` unit label remains `kg/m^2` in the CSV to preserve the existing record. The current constraint calculation uses **N/m²**, and wing design uses that value directly with dynamic pressure.
 
 ## Stored sizing snapshot
 

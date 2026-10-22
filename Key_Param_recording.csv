@@ -139,7 +139,7 @@ X_hold_below,0.640709057119109,m,"Clearance below the LD3 cargo box",Recorded re
 n_eco_rows,16,rows,"Economy seat rows",Recorded result; stored value is not read by current scripts.
 n_rows_cab,22,rows,"Total cabin rows",Recorded result; stored value is not read by current scripts.
 Total_seat_pitch,18.4912,m,"Total seat-pitch length",Recorded result; stored value is not read by current scripts.
-L_cabin,19.5416662173707,m,"Cabin length",Useless as a CSV entry: calculated locally but never read from or written to this row; stored value may be stale.
+L_cabin,24.60107294835,m,"Cabin length",Useless as a CSV entry: calculated locally but never read from or written to this row; stored value may be stale.
 V_galley,8.4950539776,m^3,"Total galley volume",Recorded result; stored value is not read by current scripts.
 L_galley_front,0.748413319011815,m,"Galley front length",Recorded result; stored value is not read by current scripts.
 L_galley_back,0.763459629338137,m,"Galley back length",Recorded result; stored value is not read by current scripts.
@@ -167,5 +167,5 @@ W_0_guess,290558.513640926,kg,"Converged maximum takeoff mass",Read and updated 
 W_f,107049.997546463,kg,"Converged fuel mass",Read and updated by current scripts.
 W_e,126360.516094463,kg,"Converged empty mass",Read and updated by current scripts.
 iter,41,count,"Mass convergence iteration count",Recorded result; stored value is not read by current scripts.
-Wing_loading,6082.01025128141,kg/m^2,"Wing loading",Read and updated by current scripts. Unit label retained as requested; code calculates force per area rather than mass per area.
+Wing_loading,6082.01025128141,N/m^2,"Wing loading",Read and updated by current scripts. Unit label retained as requested; code calculates force per area rather than mass per area.
 Thrust_to_weight,0.29834142601804,-,"Thrust-to-weight ratio",Read and updated by current scripts.
