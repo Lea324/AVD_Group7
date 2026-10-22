@@ -36,7 +36,6 @@ The recent cleanup passed static MATLAB syntax checks and executable-token compa
 | [mission_profile.mlx](mission_profile.mlx) | Schematic mission altitude profile. |
 | [Presentation chart](Presentation%20chart/) | Presentation figures and supporting plotting scripts. |
 
-`Old Code/` contains historical versions and is excluded from the current workflow. `.asv` files are editor backups; use the current `.mlx` files above.
 
 ## Running the calculations
 
