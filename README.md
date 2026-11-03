@@ -72,27 +72,33 @@ Presentation scripts that read the shared CSV also need the intended parameter r
 
 
 ## Stored sizing snapshot
-
+ AR = 10.0 
+ wing span b = 64.977 m 
+ Sref = 422.199 m^2. 
+ b / L_Fuslage = 1.001. 
+ Wing Loading = 6218.027. 
+ Thrust to weight ratio = 0.288.
 These values are copied from the current CSV, not from a new MATLAB execution. They replace the older README summary where it differed from the parameter record.
 
 | Quantity | Parameter | Stored value | Unit |
 | --- | --- | --- | --- |
-| Maximum takeoff mass | `W_0_guess` | 290558.513640926 | kg |
-| Fuel mass | `W_f` | 107049.997546463 | kg |
-| Empty mass | `W_e` | 126360.516094463 | kg |
+| Maximum takeoff mass | `W_0` | 267609.293 | kg |
+| Fuel mass | `W_f` | 93505.183 | kg |
+| Empty mass | `W_e` | 116956.110 | kg |
 | Passenger and baggage mass | `W_pax` | 16518 | kg |
 | Crew mass | `W_crew` | 630 | kg |
 | Cargo mass | `W_cargo` | 40000 | kg |
-| Fuselage total length | `L_total` | 64.9168404087387 | m |
-| Upper-deck cabin and cargo-section length | `L_main` | 44.3854847951087 | m |
-| Lower-deck cargo-section length | `L_under` | 44.8447146870154 | m |
-| Fuselage outer diameter | `D_outer` | 5.86834637591485 | m |
-| Fuselage inner diameter | `D_inner` | 5.51274637591485 | m |
+| Fuselage total length | `L_total` | 64.917 | m |
+| Upper-deck cabin and cargo-section length | `L_main` | 444.113 | m |
+| Lower-deck cargo-section length | `L_under` | 44.845 | m |
+| Fuselage outer diameter | `D_outer` | 5.868 | m |
+| Fuselage inner diameter | `D_inner` | 5.513 | m |
 | Cargo density | `rho_cargo` | 160 | kg/m³ |
-| Wing aspect ratio | `AR` | 9 | Dimensionless |
-| Wing reference area | `S_ref` | 468.657384820577 | m² |
-| Wing loading | `Wing_loading` | 6082.01025128141 | N/m² in code; see unit note above |
-| Thrust-to-weight ratio | `Thrust_to_weight` | 0.29834142601804 | Dimensionless |
+| Wing aspect ratio | `AR` | 10 | Dimensionless |
+| Wing span | 'b' | 64.977 | m |
+| Wing reference area | `S_ref` | 422.199 | m² |
+| Wing loading | `Wing_loading` | 6218.027 | N/m² in code; see unit note above |
+| Thrust-to-weight ratio | `Thrust_to_weight` | 0.288 | Dimensionless |
 
 ### Previously recorded mission durations
 

@@ -1,0 +1,40 @@
+Figure \ref{fig:whole_system} demonstrates the overall system of the aircraft, which includes the fuel system, pneumatics system, hydraulics system, electrical system, and avionics system. The selection and design of these systems are based on the requirements of the mission, regulations, certification standards and the existing advantages and disadvantages of each system. \\
+The designed aircraft is assumed to enter into service between 2035 and 2040, so reasonable assumptions are made based on the prediction of future technologies' development. \\
+The following sections provide a brief overview of each system and their functions within the aircraft.
+%\begin{figure}[H]
+ %   \centering
+  %  \includegraphics[width=0.8\textwidth]{images/whole_system.png}
+   % \caption{Overall System of the Aircraft}
+    %\label{fig:whole_system}
+%\end{figure}
+
+\subsection{Fuel System}
+The Jet A-1 fuel is selected for the aircraft, which is a kerosene-based fuel with a flash point of $38^\circ\text{C}$ and a freezing point of $-47^\circ\text{C}$ and with a fuel density of 775 - 840$\text{ kg/m}^3$ at reference temperature $15^\circ\text{C}$ \cite{JetA1}. As the required fuel mass $W_f$ calculated from the MTOW ($W_0$) is 10,7050 kg, the total fuel volume $V_f$ is calculated to be $132.57 \text{ m}^3$ taken the average density of $807.5\text{ kg/m}^3$ at $15^\circ\text{C}$.\\
+In accordance with FAR~$\S$25.969, each fuel tank must provide an expansion space of at least 2\% of its capacity \cite{1.02 ratio of fuel}, resulting in a minimum total tank volume of $165.71\mathrm{ m}^3$. Three fuel-storage tanks plus two surge tanks are designed. The storage tanks include 2 in-board wing tanks with $70.22\mathrm{ m}^3$ each and 1 centre tank with $25.27\mathrm{ m}^3$ located within the wing box. The 2 surge tanks with designed volume $?\,\mathrm{m}^3$ each are located out-broad in each wing for venting and overflow. \\
+The centre tank is approximated as a rectangular prism, using two side-by-side LD3 containers as a dimensional reference, giving a width of $3.124\,\mathrm{m}$ and a height of $1.626\,\mathrm{m}$ to fit in the internal fuselage diameter ($5.513\,\mathrm{m}$). Assuming front and rear spars at $15\%$ and $65\%$ of the root chord, which gives the tank length of $4.975\mathrm{ m}$. The Cross-section of the centre tank in order to visualise the fuel system tank arrangement is shown in Figure \ref{fig:fuel_tank}.\\
+The in-board wing tanks are approximated as a trapezoidal prism, with the top and bottom surfaces parallel to the wing chord. The tank length is assumed to be $?\%$ of the wing span, which gives a length of $?\mathrm{ m}$. The top and bottom surfaces are assumed to be $?\mathrm{ m}$ and $?\mathrm{ m}$ respectively, giving a height of $?\mathrm{ m}$. The cross-section of the in-board wing tank is shown in Figure \ref{fig:fuel_tank}.
+%No tail trim tank
+% Additonal tail trim tanks hold $?\text{m}^3$ of fuel have been added to the design to transfer the fuel rearwards and reduce the downwards force the tail needs to balance the aircraft and consequently, the wings need to produce slightly less lift, which reduces the induced drag and improves the overall efficiency of the aircraft.
+
+\subsection{Pneumatics System}
+The pneumatics system uses compressed air to serve various functions, including environmental control, anti-icing and enigne start, due to the simplicity, reliability, and ease of maintenance.\cite{PneumaticsReference_why}\\
+\subsubsection{Environmental Control System (ECS)}
+The enviromental control system (ESC) take the bleed air from the engine compressors and regulates the temperature, pressure, and humidity of the cabin with appropraite fresh air supply rate and also includes a filtration system to remove contaminants and ensure clean air circulation.\\
+At the cruise altitude of 3,700 ft, the enviromental control sytsem (ECS) ensures the cabin altitude is maintained no higher than 8,000 ft \cite{FAR}. Therefore, the cockpit, passenger cabin and cargo holds are designed to be maintained at a pressure equivalent to an altitude of 6,000 ft for more favourable passenger experience to benefit the passenger with chronic disease \cite{CDCYellowBook}, as shown in Figure \ref{fig:pressurised_region_markout}.\\
+Moreover, the ECS is required to supply a minimum fresh-air mass flow rate of $0.00416~\mathrm{kg/s}$ per occupant, which is $0.657~\mathrm{kg/s}$ for 158 occupants under normal operating conditions\cite{FAR}. \\
+The reasonable cabin temperature for passenger comfort is designed to be maintained at $22^\circ\text{C}$ (in the range of $18.3^\circ\text{C}$ to $23.9^\circ\text{C}$)\cite{FAR}\cite{22degtemp}. An enhanced humidification system providing up to $20\%$ humidity \cite{20humidity} for optimal passenger comfort.
+\subsubsection{Ice Protection System}
+Ice accretion on wing surfaces can reduce lift, increase drag and raise the stall speed, thereby degrading aircraft performance and handling qualities \cite{FAAiceprotection}. To prevent ice formation, the wing anti-icing system supplies hot bleed air to perforated piccolo tubes installed within selected critical leading-edge sections \cite{FAAiceprotection}.\\
+For the engine nacelles, electrical resistance heating elements are desgined around the inlet lips to prevent ice formation. Anti-icing is selected over de-icing to reduce the risk of engine damage from ingesting detached ice \cite{FAAiceprotection} and eliminate the hazard of ice accumulation \cite{FAR}.\\
+Wing anti-icing is limited to critical leading-edge regions to reduce bleed-air demand, while engine anti-icing is confined to the nacelle inlet lips to limit electrical power consumption. \\
+Both systems include temperature monitoring and overheat protection to prevent damage to their components and the surrounding structure.
+\subsubsection{Engine Start}
+The pneumatics system provides compressed air to start the engines, an auxiliary power unit (APU) which is a small gas turbine engine is used to produce a high-pressure air stream to start the main engine to around 15-20\% of its full operating speed. The APU is and also provides electrical power and air conditioning when the main engines are not running.
+\subsection{Hydraulics System}
+% Add content here.
+
+\subsection{Electrical System}
+% Add content here.
+
+\subsection{Avionics System}
+% Add content here.
