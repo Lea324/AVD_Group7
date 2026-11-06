@@ -1,5 +1,7 @@
-Figure \ref{fig:whole_system} demonstrates the overall system of the aircraft, which includes the fuel system, pneumatics system, hydraulics system, electrical system, and avionics system. The selection and design of these systems are based on the requirements of the mission, regulations, certification standards and the existing advantages and disadvantages of each system. \\
-The designed aircraft is assumed to enter into service between 2035 and 2040, so reasonable assumptions are made based on the prediction of future technologies' development. \\
+Figure \ref{fig:whole_system} demonstrates the overall system of the aircraft, which includes the fuel system, pneumatics system, hydraulics system, electrical system, and avionics system. The selection and design of these systems are based on the requirements of the mission, regulations, certification standards and the existing advantages and disadvantages of each system. 
+
+The designed aircraft is assumed to enter into service between 2035 and 2040, so reasonable assumptions are made based on the prediction of future technologies' development. 
+
 The following sections provide a brief overview of each system and their functions within the aircraft.
 %\begin{figure}[H]
  %   \centering
@@ -9,29 +11,102 @@ The following sections provide a brief overview of each system and their functio
 %\end{figure}
 
 \subsection{Fuel System}
-The Jet A-1 fuel is selected for the aircraft, which is a kerosene-based fuel with a flash point of $38^\circ\text{C}$ and a freezing point of $-47^\circ\text{C}$ and with a fuel density of 775 - 840$\text{ kg/m}^3$ at reference temperature $15^\circ\text{C}$ \cite{JetA1}. As the required fuel mass $W_f$ calculated from the MTOW ($W_0$) is 10,7050 kg, the total fuel volume $V_f$ is calculated to be $132.57 \text{ m}^3$ taken the average density of $807.5\text{ kg/m}^3$ at $15^\circ\text{C}$.\\
-In accordance with FAR~$\S$25.969, each fuel tank must provide an expansion space of at least 2\% of its capacity \cite{1.02 ratio of fuel}, resulting in a minimum total tank volume of $165.71\mathrm{ m}^3$. Three fuel-storage tanks plus two surge tanks are designed. The storage tanks include 2 in-board wing tanks with $70.22\mathrm{ m}^3$ each and 1 centre tank with $25.27\mathrm{ m}^3$ located within the wing box. The 2 surge tanks with designed volume $?\,\mathrm{m}^3$ each are located out-broad in each wing for venting and overflow. \\
-The centre tank is approximated as a rectangular prism, using two side-by-side LD3 containers as a dimensional reference, giving a width of $3.124\,\mathrm{m}$ and a height of $1.626\,\mathrm{m}$ to fit in the internal fuselage diameter ($5.513\,\mathrm{m}$). Assuming front and rear spars at $15\%$ and $65\%$ of the root chord, which gives the tank length of $4.975\mathrm{ m}$. The Cross-section of the centre tank in order to visualise the fuel system tank arrangement is shown in Figure \ref{fig:fuel_tank}.\\
-The in-board wing tanks are approximated as a trapezoidal prism, with the top and bottom surfaces parallel to the wing chord. The tank length is assumed to be $?\%$ of the wing span, which gives a length of $?\mathrm{ m}$. The top and bottom surfaces are assumed to be $?\mathrm{ m}$ and $?\mathrm{ m}$ respectively, giving a height of $?\mathrm{ m}$. The cross-section of the in-board wing tank is shown in Figure \ref{fig:fuel_tank}.
+The kerosene-based fuel Jet A-1 is chosen for its low-temperature capability, fire safety and controlled volatility for turbofan-powered aircraft operating at high altitude \cite{JetA1}. For tank sizing, the fuel density of $775,\mathrm{kg/m^3}$ is adopted in the range of $775$--$840,\mathrm{kg/m^3}$ at the reference temperature of $15^\circ\mathrm{C}$ \cite{JetA1}. Thus, the required fuel mass $W_f$, determined from the MTOW ($W_0$), is 93,505 kg, giving a total fuel volume $V_f$ of $120.65\,\text{m}^3$.
+
+In accordance with FAR~$\S$25.969, each fuel tank must provide an expansion space of at least 2\% of its capacity \cite{FAR}. Besides, to reduce the fire hazard, the integral tanks are filled with porous foam, which displaces $\sim 2.5\%$ of the tank and retained fuel for a further 2.5\%.
+
+The required total tank volume is \(129.73\,\mathrm{m^3}\), with an installed foam mass of \(2702\,\mathrm{kg}\) based on a foam bulk density of \(1.3\,\mathrm{lb/ft^3}\) \cite{Raymer Book}.
+
+Three fuel-storage tanks and two surge tanks are designed. The storage tanks comprise two integral inboard wing tanks, each with a volume of $70.22\,\mathrm{m}^3$, and one integral centre tank with a volume of $25.27\,\mathrm{m}^3$, located within the wing box. The two surge tanks, each with a designed volume of $?\,\mathrm{m}^3$, are located outboard in the wings for venting and overflow.
+
+The centre tank is approximated as a rectangular prism, using two side-by-side LD3 containers as a dimensional reference, giving a width of $3.124\,\mathrm{m}$ and a height of $1.626\,\mathrm{m}$ to fit in the internal fuselage diameter ($5.513\,\mathrm{m}$). 
+
+Assuming front and rear spars at $10\%$ and $65\%$ of the root chord, which gives the tank length of $4.905\mathrm{ m}$. The integral in-board wing tanks are approximated as a trapezoidal prism, with the top and bottom surfaces parallel to the wing chord. The tank length is assumed to be $?\%$ of the wing span, which gives a length of $29.55\mathrm{ m}$. The top and bottom surfaces are assumed to be $?\mathrm{ m}$ and $?\mathrm{ m}$ respectively, giving a height of $?\mathrm{ m}$. Although the wing tanks are internally divided by ribs and baffles to provide clearance for landing gear retraction, each is still counted as one tank.
+
+The cross-section of the centre tank and wing tanks is shown in Figure \ref{fig:fuel_tank}.
+
 %No tail trim tank
 % Additonal tail trim tanks hold $?\text{m}^3$ of fuel have been added to the design to transfer the fuel rearwards and reduce the downwards force the tail needs to balance the aircraft and consequently, the wings need to produce slightly less lift, which reduces the induced drag and improves the overall efficiency of the aircraft.
 
 \subsection{Pneumatics System}
-The pneumatics system uses compressed air to serve various functions, including environmental control, anti-icing and enigne start, due to the simplicity, reliability, and ease of maintenance.\cite{PneumaticsReference_why}\\
+The pneumatic system uses compressed air for environmental control, anti-icing, and engine starting because of its simplicity, reliability, and ease of maintenance \cite{Raymer Book}. The selected engine, Rolls-Royce Trent XWB-97, employs a three-shaft architecture. the bleed air is mainly extracted from the intermediate-pressure compressor, with high-pressure compressor bleed used when the intermediate-pressure supply is insufficient. Before entering the aircraft pneumatic distribution system, the bleed air is cooled in an air-to-air precooler using relatively cool air from the engine fan bypass duct.
+
+( COMPARISION TO ELE required)
+
 \subsubsection{Environmental Control System (ECS)}
-The enviromental control system (ESC) take the bleed air from the engine compressors and regulates the temperature, pressure, and humidity of the cabin with appropraite fresh air supply rate and also includes a filtration system to remove contaminants and ensure clean air circulation.\\
-At the cruise altitude of 3,700 ft, the enviromental control sytsem (ECS) ensures the cabin altitude is maintained no higher than 8,000 ft \cite{FAR}. Therefore, the cockpit, passenger cabin and cargo holds are designed to be maintained at a pressure equivalent to an altitude of 6,000 ft for more favourable passenger experience to benefit the passenger with chronic disease \cite{CDCYellowBook}, as shown in Figure \ref{fig:pressurised_region_markout}.\\
-Moreover, the ECS is required to supply a minimum fresh-air mass flow rate of $0.00416~\mathrm{kg/s}$ per occupant, which is $0.657~\mathrm{kg/s}$ for 158 occupants under normal operating conditions\cite{FAR}. \\
-The reasonable cabin temperature for passenger comfort is designed to be maintained at $22^\circ\text{C}$ (in the range of $18.3^\circ\text{C}$ to $23.9^\circ\text{C}$)\cite{FAR}\cite{22degtemp}. An enhanced humidification system providing up to $20\%$ humidity \cite{20humidity} for optimal passenger comfort.
+The environmental control system (ESC) take the bleed air from the engine compressors and regulates the temperature, pressure, and humidity of the cabin with appropraite fresh air supply rate and also includes a filtration system to remove contaminants and ensure clean air circulation.
+
+At the cruise altitude of 3,700 ft, the environmental control sytsem (ECS) ensures the cabin altitude is maintained no higher than 8,000 ft \cite{FAR}. Therefore, the cockpit, passenger cabin and cargo holds are designed to be maintained at a pressure equivalent to an altitude of 6,000 ft for more favourable passenger experience to benefit the passenger with chronic disease \cite{CDCYellowBook}, as shown in Figure \ref{fig:pressurised_region_markout}.
+
+Moreover, the ECS is required to supply a minimum fresh-air mass flow rate of $0.00416~\mathrm{kg/s}$ per occupant, which is $0.657~\mathrm{kg/s}$ for 158 occupants under normal operating conditions\cite{FAR}. 
+
+The reasonable cabin temperature for passenger comfort is designed to be maintained at $22^\circ\text{C}$ (in the range of $18.3^\circ\text{C}$ to $23.9^\circ\text{C}$)\cite{FAR,22degtemp}. An enhanced humidification system providing up to $20\%$ humidity \cite{20humidity} for optimal passenger comfort.
 \subsubsection{Ice Protection System}
-Ice accretion on wing surfaces can reduce lift, increase drag and raise the stall speed, thereby degrading aircraft performance and handling qualities \cite{FAAiceprotection}. To prevent ice formation, the wing anti-icing system supplies hot bleed air to perforated piccolo tubes installed within selected critical leading-edge sections \cite{FAAiceprotection}.\\
-For the engine nacelles, electrical resistance heating elements are desgined around the inlet lips to prevent ice formation. Anti-icing is selected over de-icing to reduce the risk of engine damage from ingesting detached ice \cite{FAAiceprotection} and eliminate the hazard of ice accumulation \cite{FAR}.\\
-Wing anti-icing is limited to critical leading-edge regions to reduce bleed-air demand, while engine anti-icing is confined to the nacelle inlet lips to limit electrical power consumption. \\
+The designed ice protection system provides anti-icing for the wing leading edges, engine nacelles, and windscreens. Hot compressor bleed air heats the wing leading edges and nacelle inlet lips to prevent ice formation, with precooling applied as required by each supply circuit. The windshields use transparent heating films integrated into the laminated glazing to prevent icing and misting \cite{SaintGobain_Heated_Glazing}, with electrical power regulated to maintain the required temperature\cite{FAA_Windshield_Heating}. This provides controlled heating directly to the glass and eliminates the need for dedicated windshield bleed-air ducts, valves, and nozzles, simplifying the installation.
+
+Ice accretion on wing surfaces can reduce lift, increase drag and raise the stall speed, thereby degrading aircraft performance and handling qualities \cite{FAAiceprotection}. To prevent ice formation, the wing anti-icing system supplies hot bleed air to perforated piccolo tubes installed within selected critical leading-edge sections.
+
+For the engine nacelles, hot bleed air from the high-pressure compressor is ducted around the inlet lips to prevent ice formation. Using the pneumatic infrastructure already selected for engine starting reduces the need for additional electrical generation and energy-storage capacity, while also reducing overall system complexity and simplifying maintenance. Anti-icing reduces the risk of engine damage from ingesting detached ice \cite{FAAiceprotection} and prevents ice accumulation \cite{FAR}.
+
+Wing anti-icing is limited to critical leading-edge regions to reduce bleed-air demand, while engine anti-icing is confined to the nacelle inlet lips to limit electrical power consumption. 
+
 Both systems include temperature monitoring and overheat protection to prevent damage to their components and the surrounding structure.
-\subsubsection{Engine Start}
-The pneumatics system provides compressed air to start the engines, an auxiliary power unit (APU) which is a small gas turbine engine is used to produce a high-pressure air stream to start the main engine to around 15-20\% of its full operating speed. The APU is and also provides electrical power and air conditioning when the main engines are not running.
+\subsubsection{APU}
+A Honeywell HGT1700 auxiliary power unit (APU) is selected to supply compressed air for main-engine starting. This air drives an air-turbine starter, which in turn rotates the engine’s compressor shaft. Fuel and ignition are introduced when the high-pressure
+spool speed (N3) reaches 25\%, the intermediate-pressure
+spool speed (N2) reaches 8\%, and the exhaust gas
+temperature is below 150$^\circ$C \cite{A350-1000}. The APU continues to supply compressed air throughout this process, allowing the starters to assist the main engines until they become self-sustaining.
+
+The Honeywell HGT1700 is selected as the baseline because its established use on the Airbus A350, powered by Trent XWB-97 engines, provides a relevant integration precedent \cite{Honeywell_APU,A350-1000}. It is installed in the tail cone to separate it from the passenger cabin, aiming to minimise cabin noise and improve passenger comfort.
+
+In addition, the APU supports air conditioning on the
+ground and supplies electricity to onboard systems when
+the main engines are shut down \cite{Honeywell_APU}.
+
+A ground air-start unit (ASU) is an external machine that provides an alternative starting-air supply through a hose connected to the aircraft if the APU is unavailable \cite{FAA_EngineStarting}.
+
 \subsection{Hydraulics System}
-% Add content here.
+As shown in Figure \ref{fig:hydraulics_system}, a hydraulic system from similar aircraft, the Airbus A350 \cite{A350-1000} is adopted for the conceptual design \cite{Raymer Book}. 
+
+The conventional three-hydraulic-system architecture replaced by a 2H/2E architecture, with the required fault tolerance provided by extra redundancy for the capability for continued safe flight and landing following specified flight-control failures or jams, including single failures and combinations not shown to be extremely improbable according to the FAR-25 \cite{FAR 25}. 
+
+During the operation, the fly-by-wire system transmits the pilot’s inputs as electrical signals to the flight-control computers. These computers command electrohydraulic servo valves to regulate the flow of pressurised hydraulic fluids. The piston moves under the resulting pressure difference and in turn moving the control surface. The servo valves are mounted directly on the actuators to minimise hydraulic delay and provide a rapid response \cite{Raymer Book}. The use of 
+electrical pump istead of conventional mechanical pump not only elliminate the thrust loss caused by the shaft friction, but also provide the designed aircraft more possibility for future technological development for the assumed entry into service between 2035 and 2040. 
+
+There are 9 control functions in total, including 6 flight-control functions (aileron, elevator, rudder, flaps, slats and spoiler) and 3 landing-gear-related functions (braking, steering, and landing gear).
+
+In the designed 2H/2E architecture, electrically powered EHA or EBHA units provide additional actuation paths to compensate the loss of redundancy and saving mass from a reduction in mechanically linked surfaces. 
+
+Electro-hydraulic actuators (EHA) is adopted for the primary flight control surfaces, where an additional electric motor drives a hydraulic pump to provide redundancy to the hydraulically actuated surfaces. This design eliminate the need for long hydraulic lines through the wing and fuselage, reducing weight and installation volume and complexity. 
+
+Electro-pneumatic actuators (EBHA) are proposed for 2 selected spoiler panels \cite{Moog} to retain spoiler control from the centre hydraulic pressure powered by the local backup electric motor. This selective installation is intended to preserve sufficient control authority while limiting additional equipment, subject to verification through failure analysis.
+
+A nitrogen-charged hydraulic accumulator is proposed to provide a limited reserve of hydraulic energy for emergency braking, steering, and landing gear extension \cite{HydraulicAccumulator}.
+
+\begin{table}[H]
+    \centering
+    \caption{Hydraulic System Functions}
+    \begin{tabular}{|c|c|}
+        \hline
+        Aircraft Function & Hydraulic control method \\
+        \hline
+        Aileron, Elevator & 2 Conventional hydraulic actuator with 2 independent EHA backup\\
+        Rudder & 2 Conventional hydraulic actuator with 1 independent EHA backup\\
+        Flaps & 2 Conventional hydraulic actuator\\
+        Slats & 1 Conventional hydraulic actuator and 1 electric actuator\\
+        Spoilers & 12 Conventional actuators with 2 EBHA on selected panels\\
+        Braking, steering, Landing gear& Conventional hydraulic actuator with hydraulic accumulator for emergency \cite{HydraulicAccumulator}\\
+        \hline
+    \end{tabular}
+    \label{tab:hydraulic_functions}
+
+The hydraulic system is designed to operate at a pressure of $5,000~\mathrm{psi}$ to provides improved power density and reduced
+weight over lower pressure systems  \cite{hydralic pressure}.
+
+
+
+Space for the hydraulic  pumps attached to the engines copied from a similar aircraft, the A350, according to the Raymer book \cite{Raymer Book}.
+
 
 \subsection{Electrical System}
 % Add content here.
