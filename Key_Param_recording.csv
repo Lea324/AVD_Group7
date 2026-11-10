@@ -160,8 +160,6 @@ AR_wetted,1.81818181818182,-,"Wetted aspect ratio",Recorded result; stored value
 LD_max,20.9001957363605,-,"Max lift-to-drag ratio",Read and updated by current scripts.
 LD_loiter,20.9001957363605,-,"Loiter lift-to-drag ratio",Read and updated by current scripts.
 LD_cruise,18.0995695076882,-,"Cruise lift-to-drag ratio",Read and updated by current scripts.
-CLmax_L,2.55,-,"CL_max_landing",Read and updated by current scripts.
-CLmax_TO,2.33,-,"CL_max_takeoff",Read and updated by current scripts.
 W_fuel_fraction,0.349409226223227,-,"Fuel weight fraction (Wf/W0)",Recorded result; stored value is not read by current scripts.
 b_ratio,0.08,-,"First/business class pax fraction",Useless as a CSV entry: calculated locally but never read from or written to this row.
 W_crew,630,kg,"Crew mass",Read and updated by current scripts.
@@ -171,3 +169,5 @@ W_e,116956.110032682,kg,"Converged empty mass",Read and updated by current scrip
 iter,43,count,"Mass convergence iteration count",Recorded result; stored value is not read by current scripts.
 Wing_loading,6218.02725340668,N/m^2,"Wing loading",Read and updated by current scripts. Unit label retained as requested; code calculates force per area rather than mass per area.
 Thrust_to_weight,0.288,-,"Thrust-to-weight ratio",Read and updated by current scripts.
+CLmax_L,2.55,,"",
+CLmax_TO,2.33,,"",
