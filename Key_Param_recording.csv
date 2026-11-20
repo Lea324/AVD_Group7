@@ -43,14 +43,14 @@ wc_length_m,1,m,"Length per lavatory block",Used by current scripts.
 cross_aisle_rows,20,rows,"Seat rows per cross aisle",Useless in current scripts: cross-aisle row spacing is hardcoded instead.
 cross_aisle_len_m,1,m,"Cross aisle length",Useless in current scripts: cross-aisle length is hardcoded instead.
 Ln_d,1.5,-,"Nose length-to-diameter ratio",Used by current scripts.
-Lt_d,2.5,-,"Tail length-to-diameter ratio",Used by current scripts.
+Lt_d,1.7,-,"Tail length-to-diameter ratio",Used by current scripts.
 f_const_section,0.65,-,"Constant-section hold fraction (f)",Used by current scripts.
 fraction_hold,0.558824,-,"Fraction of constant section usable as hold",Used by current scripts.
 L_vertical_stabiliser,1,m,"Vertical stabiliser length extra to tail length",Used by current scripts.
 AR,10,-,"Wing aspect ratio",Used by current scripts.
 Swet_Sref,5.5,-,"Wetted area ratio",Used by current scripts.
 S_ref,422.199365852853,m^2,"Wing reference area",Read and updated by current scripts.
-W_0_guess_init,300000,kg,"Initial MTOW guess",Used by current scripts.
+W_0_guess_init,270000,kg,"Initial MTOW guess",Used by current scripts.
 Oswald_efficiency_factor,0.7,-,"Oswald efficiency factor",Used by current scripts.
 CD0,0.0186,-,"Zero-lift drag coefficient",Used by current scripts.
 V_climb,150,m/s,"Climb speed",Used by current scripts.
@@ -62,9 +62,9 @@ alpha_loiter,0.2,-,"Available thrust relative to sea-level thrust at loiter",Use
 alpha_ceiling,0.2,-,"Available thrust relative to sea-level thrust at ceiling",Useless in current scripts: referenced only in Old Code.
 ROC,0,-,"Absolute ceiling approximation",Useless in current scripts: referenced only in Old Code.
 CLmax_Landing,2.5,-,"Landing maximum lift coefficient",Useless in current scripts: referenced only in Old Code.
-Vstall_Landing,52.0304557736504,m/s,"Landing stall speed",Read and updated by current scripts.
+Vstall_Landing,52.0304594092352,m/s,"Landing stall speed",Read and updated by current scripts.
 Vstall_cruise,72.5870959402068,m/s,"Cruise stall speed",Read and updated by current scripts.
-Vstall_takeoff,66.0078068931065,m/s,"Takeoff stall speed",Read and updated by current scripts.
+Vstall_takeoff,66.0078115053471,m/s,"Takeoff stall speed",Read and updated by current scripts.
 V_x,266.433757770359,m/s,"Best angle-of-climb speed",Recorded by the current constraint script; the stored value is not read by current scripts.
 M_cruise,0.82,-,"Cruise Mach number",Used by current scripts.
 M_cruise_2,0.6,-,"Alternate-cruise Mach number",Used by current scripts.
@@ -144,12 +144,12 @@ L_galley_back,1.18130036182147,m,"Galley back length",Recorded result; stored va
 L_galley,3.18130036182147,m,"Total galley length",Recorded result; stored value is not read by current scripts.
 L_cross,2,m,"Total cross-aisle length",Recorded result; stored value is not read by current scripts.
 L_nose,8.75,m,"Nose length",Recorded result; stored value is not read by current scripts.
-L_tail,14.7658659397871,m,"Tail length",Recorded result; stored value is not read by current scripts.
-L_under,43.0866878787879,m,"Lower-deck cargo-section length",Recorded result; stored value is not read by current scripts.
-L_main,42.786444071647,m,"Upper-deck cabin and cargo-section length",Recorded result; stored value is not read by current scripts.
-Tot_under,66.602553818575,m,"Lower-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
-Tot_upper,66.3023100114341,m,"Upper-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
-L_total,66.602553818575,m,"Governing total plane length (nose+tail+fuselage)",Read and updated by current scripts.
+L_tail,10.0407888390552,m,"Tail length",Recorded result; stored value is not read by current scripts.
+L_under,44.29542,m,"Lower-deck cargo-section length",Recorded result; stored value is not read by current scripts.
+L_main,45.7569803618215,m,"Upper-deck cabin and cargo-section length",Recorded result; stored value is not read by current scripts.
+Tot_under,63.0862088390552,m,"Lower-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
+Tot_upper,64.5477692008767,m,"Upper-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
+L_total,64.5477692008767,m,"Governing total plane length (nose+tail+fuselage)",Read and updated by current scripts.
 alt_cruise,11277.6,m,"Cruise altitude",Useless as a CSV entry: calculated from cruise_alt_ft locally but never read from or written to this row.
 V_cruise,241.956986467356,m/s,"Cruise speed",Read and updated by current scripts.
 V_cruise2,189.619122777902,m/s,"Alternate-cruise speed",Recorded result; stored value is not read by current scripts.
@@ -161,10 +161,10 @@ LD_cruise,18.0995695076882,-,"Cruise lift-to-drag ratio",Read and updated by cur
 W_fuel_fraction,0.349409226223227,-,"Fuel weight fraction (Wf/W0)",Recorded result; stored value is not read by current scripts.
 b_ratio,0.08,-,"First/business class pax fraction",Useless as a CSV entry: calculated locally but never read from or written to this row.
 W_crew,630,kg,"Crew mass",Read and updated by current scripts.
-W_0_guess,267609.292889302,kg,"Converged maximum takeoff mass",Read and updated by current scripts.
-W_f,93505.1828566202,kg,"Converged fuel mass",Read and updated by current scripts.
-W_e,116956.110032682,kg,"Converged empty mass",Read and updated by current scripts.
-iter,43,count,"Mass convergence iteration count",Recorded result; stored value is not read by current scripts.
+W_0_guess,267609.330287257,kg,"Converged maximum takeoff mass",Read and updated by current scripts.
+W_f,93505.2000451529,kg,"Converged fuel mass",Read and updated by current scripts.
+W_e,116956.130242104,kg,"Converged empty mass",Read and updated by current scripts.
+iter,33,count,"Mass convergence iteration count",Recorded result; stored value is not read by current scripts.
 Wing_loading,6218.02725340668,N/m^2,"Wing loading",Read and updated by current scripts. Unit label retained as requested; code calculates force per area rather than mass per area.
 Thrust_to_weight,0.288,-,"Thrust-to-weight ratio",Read and updated by current scripts.
 CLmax_L,2.55,,"",
