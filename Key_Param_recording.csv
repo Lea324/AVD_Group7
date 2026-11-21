@@ -117,9 +117,9 @@ W_chk,2250,kg,"Checked baggage mass (n_pax*m_chk)",Used by current scripts.
 W_pax,16518,kg,"Passenger and baggage mass",Read and updated by current scripts.
 V_chk,13.2352941176471,m^3,"Checked-bag hold volume",Recorded result; stored value is not read by current scripts.
 V_hand,5.142857143,m^3,"Hand-bag stowage volume",Useless in current scripts: not read or updated.
-V_cargo,294.117647058824,m^3,"Freight cargo volume",Recorded result; stored value is not read by current scripts.
-V_req,307.352941176471,m^3,"Total required hold volume",Recorded result; stored value is not read by current scripts.
-N_rows,35,rows,"ULD rows (LD3*2 across)",Recorded result; stored value is not read by current scripts.
+V_cargo,261.437908496732,m^3,"Freight cargo volume",Recorded result; stored value is not read by current scripts.
+V_req,274.673202614379,m^3,"Total required hold volume",Recorded result; stored value is not read by current scripts.
+N_rows,31,rows,"ULD rows (LD3*2 across)",Recorded result; stored value is not read by current scripts.
 V_row,9,m^3,"Volume per ULD row",Recorded result; stored value is not read by current scripts.
 W_row,4.0132,m,"Width per ULD row",Recorded result; stored value is not read by current scripts.
 W_eco,5.3594,m,"Economy cabin width",Recorded result; stored value is not read by current scripts.
@@ -144,12 +144,12 @@ L_galley_back,1.18130036182147,m,"Galley back length",Recorded result; stored va
 L_galley,3.18130036182147,m,"Total galley length",Recorded result; stored value is not read by current scripts.
 L_cross,2,m,"Total cross-aisle length",Recorded result; stored value is not read by current scripts.
 L_nose,8.75,m,"Nose length",Recorded result; stored value is not read by current scripts.
-L_tail,10.0407888390552,m,"Tail length",Recorded result; stored value is not read by current scripts.
-L_under,44.29542,m,"Lower-deck cargo-section length",Recorded result; stored value is not read by current scripts.
-L_main,45.7569803618215,m,"Upper-deck cabin and cargo-section length",Recorded result; stored value is not read by current scripts.
-Tot_under,63.0862088390552,m,"Lower-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
-Tot_upper,64.5477692008767,m,"Upper-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
-L_total,64.5477692008767,m,"Governing total plane length (nose+tail+fuselage)",Read and updated by current scripts.
+L_tail,10.336106157851,m,"Tail length",Recorded result; stored value is not read by current scripts.
+L_under,41.2271,m,"Lower-deck cargo-section length",Recorded result; stored value is not read by current scripts.
+L_main,42.6886603618215,m,"Upper-deck cabin and cargo-section length",Recorded result; stored value is not read by current scripts.
+Tot_under,60.313206157851,m,"Lower-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
+Tot_upper,61.7747665196725,m,"Upper-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
+L_total,61.8797665196725,m,"Governing total plane length (nose+tail+fuselage)",Read and updated by current scripts.
 alt_cruise,11277.6,m,"Cruise altitude",Useless as a CSV entry: calculated from cruise_alt_ft locally but never read from or written to this row.
 V_cruise,241.956986467356,m/s,"Cruise speed",Read and updated by current scripts.
 V_cruise2,189.619122777902,m/s,"Alternate-cruise speed",Recorded result; stored value is not read by current scripts.
