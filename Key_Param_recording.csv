@@ -43,7 +43,7 @@ wc_length_m,1,m,"Length per lavatory block",Used by current scripts.
 cross_aisle_rows,20,rows,"Seat rows per cross aisle",Useless in current scripts: cross-aisle row spacing is hardcoded instead.
 cross_aisle_len_m,1,m,"Cross aisle length",Useless in current scripts: cross-aisle length is hardcoded instead.
 Ln_d,1.5,-,"Nose length-to-diameter ratio",Used by current scripts.
-Lt_d,1.7,-,"Tail length-to-diameter ratio",Used by current scripts.
+Lt_d,1.75,-,"Tail length-to-diameter ratio",Used by current scripts.
 f_const_section,0.65,-,"Constant-section hold fraction (f)",Used by current scripts.
 fraction_hold,0.558824,-,"Fraction of constant section usable as hold",Used by current scripts.
 L_vertical_stabiliser,1,m,"Vertical stabiliser length extra to tail length",Used by current scripts.
