@@ -139,12 +139,12 @@ L_galley_back,0.273536308842211,m,"Galley back length",Recorded result; stored v
 L_galley,1.27353630884221,m,"Total galley length",Recorded result; stored value is not read by current scripts.
 L_cross,3,m,"Total cross-aisle length",Recorded result; stored value is not read by current scripts.
 L_nose,8.75,m,"Nose length",Recorded result; stored value is not read by current scripts.
-L_tail,10.336106157851,m,"Tail length",Recorded result; stored value is not read by current scripts.
+L_tail,11.8126927518297,m,"Tail length",Recorded result; stored value is not read by current scripts.
 L_under,42.5432,m,"Lower-deck cargo-section length",Recorded result; stored value is not read by current scripts.
 L_main,42.6284963088422,m,"Upper-deck cabin and cargo-section length",Recorded result; stored value is not read by current scripts.
-Tot_under,61.629306157851,m,"Lower-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
-Tot_upper,61.7146024666932,m,"Upper-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
-L_total,61.8796024666932,m,"Governing total plane length (nose+tail+fuselage)",Read and updated by current scripts.
+Tot_under,63.1058927518297,m,"Lower-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
+Tot_upper,63.1911890606719,m,"Upper-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
+L_total,63.1911890606719,m,"Governing total plane length (nose+tail+fuselage)",Read and updated by current scripts.
 alt_cruise,11277.6,m,"Cruise altitude",Useless as a CSV entry: calculated from cruise_alt_ft locally but never read from or written to this row.
 V_cruise,241.956986467356,m/s,"Cruise speed",Read and updated by current scripts.
 V_cruise2,189.619122777902,m/s,"Alternate-cruise speed",Recorded result; stored value is not read by current scripts.
