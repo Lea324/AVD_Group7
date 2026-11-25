@@ -106,7 +106,7 @@ c_AR,0,-,"Aspect ratio c",Used only for the AR_cal estimate; actual wing sizing 
 lambda,0.2325,-,"Taper ratio",Used by current scripts.
 Sweep_LE,35,deg,"Leading-edge sweep",Used by current scripts.
 twist_angle,-3,deg,"Wing twist angle",Used by current scripts.
-fuel_density,0.79,kg/L,"Fuel density",Useless in current scripts: not read or updated.
+fuel_density,0.75,kg/L,"Fuel density",Useless in current scripts: not read or updated.
 n_pax,150,pax,"Total passengers (n_first+n_eco)",Read and updated by current scripts.
 W_chk,2250,kg,"Checked baggage mass (n_pax*m_chk)",Used by current scripts.
 W_pax,16518,kg,"Passenger and baggage mass",Read and updated by current scripts.
