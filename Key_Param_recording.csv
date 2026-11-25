@@ -28,7 +28,7 @@ exit_door_small_in,20,in,"Small exit door width (FAR 25.807)",Used by current sc
 exit_door_large_in,24,in,"Large exit door width (FAR 25.807)",Used by current scripts.
 headroom_margin_m,0.01,m,"Headroom margin",Used by current scripts.
 ULD_height_in,64,in,"ULD height (all ULDs)",Used by current scripts.
-wall_thickness_in,7,in,"Fuselage wall thickness",Used by current scripts.
+wall_thickness_in,5,in,"Fuselage wall thickness",Used by current scripts.
 armrest_height_in,25,in,"Armrest height (Torenbeek)",Useless in current calculations: loaded as H_arm but never used.
 floor_camber_factor,0.05,-,"Cargo floor camber factor",Useless in current scripts: floor geometry uses hardcoded factors instead.
 R_step,0.001,m,"Inner-radius sweep: step size",Useless in current scripts: the radius step is hardcoded instead.
@@ -127,7 +127,7 @@ W_cabin,5.3086,m,"Cabin width",Recorded result; stored value is not read by curr
 H_Headroom,1.96,m,"Required total headroom with margin",Recorded result; stored value is not read by current scripts.
 H_cargo,1.6256,m,"Cargo hold height (ULD height)",Recorded result; stored value is not read by current scripts.
 D_inner,5.55074637591485,m,"Fuselage inner diameter",Recorded result; stored value is not read by current scripts.
-D_outer,5.90634637591485,m,"Fuselage outer diameter",Recorded result; stored value is not read by current scripts.
+D_outer,5.80474637591485,m,"Fuselage outer diameter",Recorded result; stored value is not read by current scripts.
 y_floor_upper_surface,0.231526812042574,m,"Cabin floor upper-surface y coordinate relative to fuselage centre",Recorded result; stored value is not read by current scripts.
 X_hold_below,0.640709057119109,m,"Clearance below the LD3 cargo box",Recorded result; stored value is not read by current scripts.
 n_eco_rows,16,rows,"Economy seat rows",Recorded result; stored value is not read by current scripts.
@@ -139,12 +139,12 @@ L_galley_back,0.273536308842211,m,"Galley back length",Recorded result; stored v
 L_galley,1.27353630884221,m,"Total galley length",Recorded result; stored value is not read by current scripts.
 L_cross,3,m,"Total cross-aisle length",Recorded result; stored value is not read by current scripts.
 L_nose,8.75,m,"Nose length",Recorded result; stored value is not read by current scripts.
-L_tail,11.8126927518297,m,"Tail length",Recorded result; stored value is not read by current scripts.
+L_tail,11.6094927518297,m,"Tail length",Recorded result; stored value is not read by current scripts.
 L_under,42.5432,m,"Lower-deck cargo-section length",Recorded result; stored value is not read by current scripts.
 L_main,42.6284963088422,m,"Upper-deck cabin and cargo-section length",Recorded result; stored value is not read by current scripts.
-Tot_under,63.1058927518297,m,"Lower-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
-Tot_upper,63.1911890606719,m,"Upper-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
-L_total,63.1911890606719,m,"Governing total plane length (nose+tail+fuselage)",Read and updated by current scripts.
+Tot_under,62.9026927518297,m,"Lower-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
+Tot_upper,62.9879890606719,m,"Upper-deck total length including nose and tail",Recorded result; stored value is not read by current scripts.
+L_total,62.9879890606719,m,"Governing total plane length (nose+tail+fuselage)",Read and updated by current scripts.
 alt_cruise,11277.6,m,"Cruise altitude",Useless as a CSV entry: calculated from cruise_alt_ft locally but never read from or written to this row.
 V_cruise,241.956986467356,m/s,"Cruise speed",Read and updated by current scripts.
 V_cruise2,189.619122777902,m/s,"Alternate-cruise speed",Recorded result; stored value is not read by current scripts.
